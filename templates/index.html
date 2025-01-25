@@ -2,11 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>FlaskApp</title>
+    <title>News Sentiment Analyzer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
-<body>
-    <h1>Hello World!</h1>
-    <h2>Welcome to FlaskApp!</h2>
-    <h3>{{ utc_dt }}</h3>
+<body class="bg-gray-100 p-8">
+    <div class="container mx-auto w-full">
+        <!-- Search Bar -->
+        <div class="w-full mb-8">
+            <input type="text" id="searchInput"
+                   class="w-full p-3 border-2 border-gray-300 rounded-l-lg focus:outline-none focus:border-blue-500"
+                   placeholder="Enter search term...">
+            <button id="searchButton"
+                    class="w-full mt-2 bg-blue-500 text-white p-3 rounded-lg hover:bg-blue-600 transition">
+                Search
+            </button>
+        </div>
+
+        <!-- News Site Logos -->
+        <div class="flex justify-center space-x-4 mb-2">
+            <img src="/static/images/temp.png" alt="CNN" class="h-20 w-20">
+            <img src="/static/images/temp.png" alt="BBC" class="h-20 w-20">
+            <img src="/static/images/temp.png" alt="Reuters" class="h-20 w-20">
+            <img src="/static/images/temp.png" alt="NYT" class="h-20 w-20">
+            <img src="/static/images/temp.png" alt="Fox" class="h-20 w-20">
+            <img src="/static/images/temp.png" alt="MSNBC" class="h-20 w-20">
+            <img src="/static/images/temp.png" alt="AP" class="h-20 w-20">
+        </div>
+
+        <!-- Checkboxes -->
+        <div class="flex justify-center space-x-4 mb-8">
+            <input type="checkbox" class="news-checkbox" data-site="cnn">
+            <input type="checkbox" class="news-checkbox" data-site="bbc">
+            <input type="checkbox" class="news-checkbox" data-site="reuters">
+            <input type="checkbox" class="news-checkbox" data-site="nyt">
+            <input type="checkbox" class="news-checkbox" data-site="fox">
+            <input type="checkbox" class="news-checkbox" data-site="msnbc">
+            <input type="checkbox" class="news-checkbox" data-site="ap">
+        </div>
+
+        <!-- Sentiment Graph -->
+        <canvas id="sentimentChart" class="w-full h-64"></canvas>
+    </div>
+    <script src="/static/js/script.js"></script>
 </body>
 </html>

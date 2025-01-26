@@ -1,0 +1,27 @@
+.article-button {
+  @apply w-1/8 h-full border-none outline-none cursor-pointer transition-colors duration-300 ease-in-out;
+}
+
+.article-button.active {
+  @apply bg-[#8b4513];
+}
+
+.article-button.hover {
+  @apply bg-[#e0b48c];
+}
+
+#graph-bar {
+  @apply absolute h-full transition-all duration-300 ease-in-out cursor-ew-resize;
+}
+
+#about-button,
+#home-button,
+#data-button {
+  @apply cursor-pointer transition-colors duration-300 ease-in-out;
+}
+
+#about-button.hover,
+#home-button.hover,
+#data-button.hover {
+  @apply text-[#e0b48c];
+}

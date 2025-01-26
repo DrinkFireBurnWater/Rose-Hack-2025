@@ -57,9 +57,7 @@ def get_sentiments(json_or_path, ispath = False):
         top3_indexes = [index for _, index in sorted(top3heap, reverse = True)]
         lowest3_indexes = [index for _, index in sorted(lowest3heap)]
 
-    print(top3_indexes)
     top3_articles = [news_data[x] for x in top3_indexes]
-    print(lowest3_indexes)
     lowest3_articles = [news_data[x] for x in lowest3_indexes]
 
 
@@ -79,7 +77,7 @@ def get_sentiments(json_or_path, ispath = False):
         count = analyzed_sources[news_source]['count']
         analyzed_sources[news_source]['average'] = total/count
 
-    return analyzed_sources
+    return analyzed_sources,top3_articles, sorted(top3heap, reverse = True), lowest3_articles, sorted(lowest3heap)
 
 def get_bluesky_sentiments(json_or_path, ispath = False):
     if ispath:

@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import json
 import grabber
 import model
+import util
 
 app = Flask(__name__)
 
@@ -30,13 +31,23 @@ def analyze_sentiment():
     print(f'grabber_result:{grabber_result}')
 
     model_result = model.get_sentiments(grabber_result)
-    sentiment_totals = {key : model_result[key]['average'] for key in model_result.keys()}
-    print("final",model_result)
+    print(model_result)
+    
+    sentiment_totals = {util.renameSource(key) : model_result[key]['average'] for key in model_result.keys()}
+    print("final",sentiment_totals)
+
+    #Remove Empty Function: If it's not present, then remove it from sites
+    sites = [i for i in sites if i in sentiment_totals]
+    scores = []
+    for i in sentiment_totals:
+        scores.append((sentiment_totals[i])*5)
+
+    print(sites)
 
     return jsonify({
         'query': query,
         'sites': sites,
-       'sentiment_totals': sentiment_totals
+       'scores': scores
      })
 
 if __name__ == '__main__':

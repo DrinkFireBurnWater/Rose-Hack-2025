@@ -24,6 +24,7 @@ def get_sentiments(path):
     for article in news_data:
         article_dict = {key: article[key] for key in text_categories}
         article_dict['source'] = article_dict['source'].split(" ")[0]
+        if article_dict['source'] == 'The': article_dict['source'] = "nytimes"
         article_dict_list.append(article_dict)
 
 

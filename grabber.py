@@ -5,7 +5,7 @@ def scrape_news(query, sites):
     '''returns 100 articles searching for query from certain sites
     currently only changes newsdata.json and returns the path'''
     #harded coded api key :hmm:
-    api_key = '11c95fbfdd920bf9ef287b95a3bb92fe'
+    api_key = 'c69425308e63c259754667ba581bf645'
     url = 'http://api.mediastack.com/v1/news'
     sources = ','.join(sites)
     print(sources)

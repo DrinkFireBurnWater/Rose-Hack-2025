@@ -7,6 +7,7 @@ def scrapeNews(query,sites):
     api_key = '11c95fbfdd920bf9ef287b95a3bb92fe'
     url = 'http://api.mediastack.com/v1/news'
     sources = ','.join(sites)
+    print(sources)
     #'cnn,bbc,reuters,foxnews,nytimes,mnbc,ap'
     #cnn,bbc,latimes,foxnews,nytimes
 
@@ -22,21 +23,9 @@ def scrapeNews(query,sites):
     }
 
     response = requests.get(url=url,params=params)
-
     print(response.json())
 
     with open('newsdata.json', 'w') as file:
         json.dump(response.json(), file, indent=4)
 
     return 'newsdata.json'
-
-#Runs based on front end?
-
-if __name__ == "__main__":
-    search_term = sys.argv[1]
-    sites = json.loads(sys.argv[2])
-    
-    result = scrapeNews(search_term, sites)
-    
-    # Print the result so we can capture it in the Flask app
-    print(json.dumps(result))

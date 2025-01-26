@@ -57,4 +57,4 @@ def getSentiments(data):
         totals[news][0] = totals[news][0]/totals[news][1]
         totals[news] = totals[news][0]
 
-    print(json.dumps(totals))
+    return totals

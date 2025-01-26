@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, jsonify
 import json
-import subprocess
 import grabber
 import model
 
@@ -28,17 +27,18 @@ def analyze_sentiment():
     print("Sites:", sites, type(sites))         # Debugging sites
 
     grabber_result = grabber.scrapeNews(query,sites)
-    print(grabber_result[0])
+    print(grabber_result)
 
     model_result = model.getSentiments(grabber_result)
+    print("final",model_result)
 
-    sentiment_totals = json.loads(model_result.stdout)
+    filtered_scores = [model_result[sites] for site in sites]
 
         # Step 5: Return the final result
     return jsonify({
         'query': query,
         'sites': sites,
-       'sentiment_totals': sentiment_totals
+       'sentiment_totals': filtered_scores
      })
 
 

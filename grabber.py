@@ -1,9 +1,10 @@
 import requests
 import json
-import sys
-#import query from 
 
 def scrapeNews(query,sites):
+    '''returns 100 articles searching for query from certain sites
+    currently only changes newsdata.json and returns the path'''
+    #harded coded api key :hmm:
     api_key = '11c95fbfdd920bf9ef287b95a3bb92fe'
     url = 'http://api.mediastack.com/v1/news'
     sources = ','.join(sites)

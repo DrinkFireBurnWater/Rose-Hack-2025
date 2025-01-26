@@ -1,8 +1,5 @@
-#IMPORTS
 import json
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-
-
 
 def sentiment_scores(sentence):
 
@@ -14,47 +11,40 @@ def sentiment_scores(sentence):
     sentiment_dict = sid_obj.polarity_scores(sentence)
 
     # Decide sentiment as positive, negative, or neutral
-
     return sentiment_dict['compound']
 
-def getSentiments(data):
-    with open(data) as json_file:
-        newsdata = json.load(json_file)
-    newsdata = dict(newsdata)
-    newsdata = newsdata["data"]
+def get_sentiments(path):
+    with open(path) as json_file:
+        news_data = json.load(json_file)
+    news_data = dict(news_data)
+    news_data = news_data["data"]
 
-    data = []
-    copycolumns = ['title', 'source', 'description']
-    for article in newsdata:
-        filterarticle = {key: article[key] for key in copycolumns}
-        filterarticle['source'] = filterarticle['source'].split(" ")[0]
-        data.append(filterarticle)
+    article_dict_list = []
+    text_categories = ['title', 'source', 'description']
+    for article in news_data:
+        article_dict = {key: article[key] for key in text_categories}
+        article_dict['source'] = article_dict['source'].split(" ")[0]
+        article_dict_list.append(article_dict)
 
 
-    for article in data:
+    for article in article_dict_list:
         score1 = sentiment_scores(article['title'])
         score2 = sentiment_scores(article['description'])
         score = (score1+score2)/2
         article['score'] = score
 
-    totals = dict()
+    analyzed_sources = dict()
 
-    for article in data:
-        score1 = sentiment_scores(article['title'])
-        score2 = sentiment_scores(article['description'])
-        score = (score1+score2)/2
-        article['score'] = score
+    for article in article_dict_list:
+        news_source = article['source']
+        if news_source not in analyzed_sources:
+            analyzed_sources[news_source] = {'total': 0, 'count':0}
+        analyzed_sources[news_source]['total'] += article['score']
+        analyzed_sources[news_source]['count'] += 1
 
-    for article in data:
-        if article['source'] not in totals:
-            totals[article['source']] = [0,0]
-        #print(article['score'])
-        totals[article['source']][0] += article['score']
-        #print(totals[article['source']])
-        totals[article['source']][1] += 1
+    for news_source in analyzed_sources:
+        total = analyzed_sources[news_source]['total']
+        count = analyzed_sources[news_source]['count']
+        analyzed_sources[news_source]['average'] = total/count
 
-    for news in totals:
-        totals[news][0] = totals[news][0]/totals[news][1]
-        totals[news] = totals[news][0]
-
-    return totals
+    return analyzed_sources

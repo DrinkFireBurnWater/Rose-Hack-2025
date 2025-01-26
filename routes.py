@@ -19,29 +19,25 @@ import random  # For demo purposes
 @app.route('/analyze', methods=['POST'])
 def analyze_sentiment():
     data = request.json
-    print("Received data:", data)  # Debugging incoming JSON
+    print("data:", data)
 
     query = data.get('query', '')
     sites = data.get('sites', [])
-    print("Query:", query, type(query))         # Debugging query
-    print("Sites:", sites, type(sites))         # Debugging sites
+    print("Query:", query, type(query))
+    print("Sites:", sites, type(sites))
 
     grabber_result = grabber.scrapeNews(query,sites)
-    print(grabber_result)
+    print(f'grabber_result:{grabber_result}')
 
-    model_result = model.getSentiments(grabber_result)
+    model_result = model.get_sentiments(grabber_result)
+    sentiment_totals = {key : model_result[key]['average'] for key in model_result.keys()}
     print("final",model_result)
 
-    filtered_scores = [model_result[sites] for site in sites]
-
-        # Step 5: Return the final result
     return jsonify({
         'query': query,
         'sites': sites,
-       'sentiment_totals': filtered_scores
+       'sentiment_totals': sentiment_totals
      })
-
-
 
 if __name__ == '__main__':
     app.run(debug=True)

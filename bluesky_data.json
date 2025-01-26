@@ -1,0 +1,3096 @@
+{
+    "posts": [
+        {
+            "uri": "at://did:plc:7qqkq2zdwq4j5jingukgtuky/app.bsky.feed.post/3lgij7dgog62f",
+            "cid": "bafyreiengrk453a24kb7tgkkn44h6qvtrwrknifpr2sgkvijiwpxoqpmpu",
+            "author": {
+                "did": "did:plc:7qqkq2zdwq4j5jingukgtuky",
+                "handle": "joncooper-us.bsky.social",
+                "displayName": "Jon Cooper",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7qqkq2zdwq4j5jingukgtuky/bafkreifxcm6iu4wfjapuut3fyrjygvejmk5ldyfb42uie4my6oxitu7v6m@jpeg",
+                "labels": [],
+                "createdAt": "2024-11-09T17:04:06.584Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T13:34:51.975Z",
+                "langs": [
+                    "en"
+                ],
+                "text": "Don\u2019t fear Trump. Ridicule him."
+            },
+            "replyCount": 402,
+            "repostCount": 1104,
+            "likeCount": 6121,
+            "quoteCount": 68,
+            "indexedAt": "2025-01-24T13:34:52.858Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:xjc7mkotpenvhh6ffewkdpyn/app.bsky.feed.post/3lgj2afb25223",
+            "cid": "bafyreifq7jensd45pdolzicxlntkqcc3c6p2bdnlj2ny374cjhsh6wwgdu",
+            "author": {
+                "did": "did:plc:xjc7mkotpenvhh6ffewkdpyn",
+                "handle": "meidastouch.com",
+                "displayName": "MeidasTouch",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xjc7mkotpenvhh6ffewkdpyn/bafkreifmocqyainrhqyrla3lewf7xb6mj3vqchd73iefmumh6hs6jtdcmy@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "all"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2023-07-01T21:14:23.964Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T18:39:41.052Z",
+                "embed": {
+                    "$type": "app.bsky.embed.record",
+                    "record": {
+                        "cid": "bafyreiadklahdb6tevahcl5vsn2atr7tpw5tsumi6m3mapyaorjd4jfqru",
+                        "uri": "at://did:plc:t6ubj2wlhc34awzcymh3qpur/app.bsky.feed.post/3lgj23fz5rk2t"
+                    }
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "Why would Trump do this?"
+            },
+            "embed": {
+                "$type": "app.bsky.embed.record#view",
+                "record": {
+                    "$type": "app.bsky.embed.record#viewRecord",
+                    "uri": "at://did:plc:t6ubj2wlhc34awzcymh3qpur/app.bsky.feed.post/3lgj23fz5rk2t",
+                    "cid": "bafyreiadklahdb6tevahcl5vsn2atr7tpw5tsumi6m3mapyaorjd4jfqru",
+                    "author": {
+                        "did": "did:plc:t6ubj2wlhc34awzcymh3qpur",
+                        "handle": "ronfilipkowski.bsky.social",
+                        "displayName": "Ron Filipkowski",
+                        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:t6ubj2wlhc34awzcymh3qpur/bafkreifqp5wczyswtq4g45yi73ivgtlhctw2jj3ghjfsve53k4tvli62cy@jpeg",
+                        "labels": [],
+                        "createdAt": "2024-11-11T14:12:30.479Z"
+                    },
+                    "value": {
+                        "$type": "app.bsky.feed.post",
+                        "createdAt": "2025-01-24T18:36:54.066Z",
+                        "embed": {
+                            "$type": "app.bsky.embed.images",
+                            "images": [
+                                {
+                                    "alt": "",
+                                    "aspectRatio": {
+                                        "height": 1318,
+                                        "width": 1290
+                                    },
+                                    "image": {
+                                        "$type": "blob",
+                                        "ref": {
+                                            "$link": "bafkreicvu5damdzqyo7ybm6rw4teyzoaol3ayry33xohw3uzbydl2hiage"
+                                        },
+                                        "mimeType": "image/jpeg",
+                                        "size": 821955
+                                    }
+                                }
+                            ]
+                        },
+                        "langs": [
+                            "en"
+                        ],
+                        "text": "I remember the old days when Fox said it was Biden\u2019s fault."
+                    },
+                    "labels": [],
+                    "likeCount": 22506,
+                    "replyCount": 1043,
+                    "repostCount": 4449,
+                    "quoteCount": 262,
+                    "indexedAt": "2025-01-24T18:36:57.063Z",
+                    "embeds": [
+                        {
+                            "$type": "app.bsky.embed.images#view",
+                            "images": [
+                                {
+                                    "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:t6ubj2wlhc34awzcymh3qpur/bafkreicvu5damdzqyo7ybm6rw4teyzoaol3ayry33xohw3uzbydl2hiage@jpeg",
+                                    "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:t6ubj2wlhc34awzcymh3qpur/bafkreicvu5damdzqyo7ybm6rw4teyzoaol3ayry33xohw3uzbydl2hiage@jpeg",
+                                    "alt": "",
+                                    "aspectRatio": {
+                                        "height": 1318,
+                                        "width": 1290
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "replyCount": 226,
+            "repostCount": 597,
+            "likeCount": 4234,
+            "quoteCount": 31,
+            "indexedAt": "2025-01-24T18:39:41.264Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:bono5gae7m6r3qpfxomshwbd/app.bsky.feed.post/3lggpssqbxk2w",
+            "cid": "bafyreicquydot3pva75lbnfqpyu7yn75hyb4nisiotghpph4wgs5judlb4",
+            "author": {
+                "did": "did:plc:bono5gae7m6r3qpfxomshwbd",
+                "handle": "maddow.msnbc.com",
+                "displayName": "Rachel Maddow",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bono5gae7m6r3qpfxomshwbd/bafkreiavswavbilmivvcvmfp477feua6m7kasemlgcwrorbj5yoois5hke@jpeg",
+                "labels": [],
+                "createdAt": "2023-11-17T20:26:59.445Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-23T20:27:48.526Z",
+                "embed": {
+                    "$type": "app.bsky.embed.external",
+                    "external": {
+                        "description": "President Donald Trump littered a Wednesday interview on Fox News with many of the same false claims he made earlier in his first three days back in the White House.",
+                        "thumb": {
+                            "$type": "blob",
+                            "ref": {
+                                "$link": "bafkreibdrrgayme47s5dkbgwl7wz3vax5nbek7hm6kgrmi2yiqsvwavy4m"
+                            },
+                            "mimeType": "image/jpeg",
+                            "size": 989321
+                        },
+                        "title": "Fact check: Trump litters Oval Office interview with false claims | CNN Politics",
+                        "uri": "https://www.cnn.com/2025/01/22/politics/fact-check-trump-litters-oval-office-interview-with-false-claims/index.html"
+                    }
+                },
+                "facets": [
+                    {
+                        "features": [
+                            {
+                                "$type": "app.bsky.richtext.facet#link",
+                                "uri": "https://www.cnn.com/2025/01/22/politics/fact-check-trump-litters-oval-office-interview-with-false-claims/index.html"
+                            }
+                        ],
+                        "index": {
+                            "byteEnd": 237,
+                            "byteStart": 210
+                        }
+                    }
+                ],
+                "langs": [
+                    "en"
+                ],
+                "text": "Harris beat Trump 54% to 43% among voters ages 18-24.\nHarris beat Trump 53% to 45% among voters ages 25-29.\nHarris beat Trump 51% to 45% among voters ages 30-39.\n\nTrump to Fox: \u201cI won youth by 36 points.\u201d\n\nwww.cnn.com/2025/01/22/p..."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.external#view",
+                "external": {
+                    "uri": "https://www.cnn.com/2025/01/22/politics/fact-check-trump-litters-oval-office-interview-with-false-claims/index.html",
+                    "title": "Fact check: Trump litters Oval Office interview with false claims | CNN Politics",
+                    "description": "President Donald Trump littered a Wednesday interview on Fox News with many of the same false claims he made earlier in his first three days back in the White House.",
+                    "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:bono5gae7m6r3qpfxomshwbd/bafkreibdrrgayme47s5dkbgwl7wz3vax5nbek7hm6kgrmi2yiqsvwavy4m@jpeg"
+                }
+            },
+            "replyCount": 1065,
+            "repostCount": 4094,
+            "likeCount": 12518,
+            "quoteCount": 323,
+            "indexedAt": "2025-01-23T20:27:50.056Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:hsxw5pjiezqvl7y5i2paro7t/app.bsky.feed.post/3lgiu4ps6us2a",
+            "cid": "bafyreieyslgjp3iudj277khqpf2eqqyiuajox5c7amtdjnoszgccfxi6lq",
+            "author": {
+                "did": "did:plc:hsxw5pjiezqvl7y5i2paro7t",
+                "handle": "ejwillingham.bsky.social",
+                "displayName": "Emily \u201cThe Only Way Is Through\u201d Willingham",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hsxw5pjiezqvl7y5i2paro7t/bafkreidsjdqu66ss3meupyb62oragupirhafp4sctr3amqcwyazczgwv2e@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "following"
+                    }
+                },
+                "labels": [
+                    {
+                        "src": "did:plc:hsxw5pjiezqvl7y5i2paro7t",
+                        "uri": "at://did:plc:hsxw5pjiezqvl7y5i2paro7t/app.bsky.actor.profile/self",
+                        "cid": "bafyreietjyg4wqzcxjg34qvurridue6dk4h3vki26j57kwj3woo7j7yata",
+                        "val": "!no-unauthenticated",
+                        "cts": "1970-01-01T00:00:00.000Z"
+                    }
+                ],
+                "createdAt": "2023-05-02T16:23:41.114Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T16:50:15.432Z",
+                "langs": [
+                    "en"
+                ],
+                "text": "Trump cancels cancer research\nTrump policy hides emerging diseases from public \nTrump HHS shutdown wastes TK in taxpayer $\nTrump HHS shutdown costs TK to local economies\nTrump holds emergency disaster aid to Americans hostage\nTrump arrests citizens&veteran w/proof of status\n\nWrite these stories."
+            },
+            "replyCount": 26,
+            "repostCount": 362,
+            "likeCount": 1074,
+            "quoteCount": 8,
+            "indexedAt": "2025-01-24T16:50:15.959Z",
+            "labels": [],
+            "threadgate": {
+                "uri": "at://did:plc:hsxw5pjiezqvl7y5i2paro7t/app.bsky.feed.threadgate/3lgiu4ps6us2a",
+                "cid": "bafyreia3gwibd2vwn5crnkemyckx6ubhehunlersfc6z34xvwl2awdtzlq",
+                "record": {
+                    "$type": "app.bsky.feed.threadgate",
+                    "createdAt": "2025-01-24T17:34:25.847Z",
+                    "hiddenReplies": [],
+                    "post": "at://did:plc:hsxw5pjiezqvl7y5i2paro7t/app.bsky.feed.post/3lgiu4ps6us2a"
+                },
+                "lists": []
+            }
+        },
+        {
+            "uri": "at://did:plc:ojwszrpcvhwuhl4nhwactd2y/app.bsky.feed.post/3lggozcx4q22d",
+            "cid": "bafyreiespu7ttpxplqtsg6php7wdvtewof6vmskfsel5qcyeppxfvh5l2a",
+            "author": {
+                "did": "did:plc:ojwszrpcvhwuhl4nhwactd2y",
+                "handle": "adamparkhomenko.bsky.social",
+                "displayName": "Adam Parkhomenko",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ojwszrpcvhwuhl4nhwactd2y/bafkreihquyopgtrxuq3ivjaijsfnwlhows7yk54xo6tb4t6o65lqtn427m@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "all"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2023-04-28T09:47:00.714Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-23T20:13:33.112Z",
+                "embed": {
+                    "$type": "app.bsky.embed.record",
+                    "record": {
+                        "cid": "bafyreiat6w2io2ldib2dwzou66ocoihanylde6ng3qgyhsoziyykj4vdmi",
+                        "uri": "at://did:plc:eudqnxnhhfte4u752te2oib7/app.bsky.feed.post/3lgglppunwc2w"
+                    }
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "Trump pardoned a child molester."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.record#view",
+                "record": {
+                    "$type": "app.bsky.embed.record#viewRecord",
+                    "uri": "at://did:plc:eudqnxnhhfte4u752te2oib7/app.bsky.feed.post/3lgglppunwc2w",
+                    "cid": "bafyreiat6w2io2ldib2dwzou66ocoihanylde6ng3qgyhsoziyykj4vdmi",
+                    "author": {
+                        "did": "did:plc:eudqnxnhhfte4u752te2oib7",
+                        "handle": "antifaoperative.bsky.social",
+                        "displayName": "Beks",
+                        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:eudqnxnhhfte4u752te2oib7/bafkreidkb637vo53of4hq6xk6c4hqqdl3dccbicw6vzdockomra2u6xpfy@jpeg",
+                        "associated": {
+                            "chat": {
+                                "allowIncoming": "all"
+                            }
+                        },
+                        "labels": [],
+                        "createdAt": "2023-05-23T19:44:49.918Z"
+                    },
+                    "value": {
+                        "$type": "app.bsky.feed.post",
+                        "createdAt": "2025-01-23T19:14:29.887Z",
+                        "embed": {
+                            "$type": "app.bsky.embed.images",
+                            "images": [
+                                {
+                                    "alt": "",
+                                    "aspectRatio": {
+                                        "height": 194,
+                                        "width": 194
+                                    },
+                                    "image": {
+                                        "$type": "blob",
+                                        "ref": {
+                                            "$link": "bafkreihwynx6dldpzqn245leiezevu3xmyvfqllvybcj6yeuktqxvkin2e"
+                                        },
+                                        "mimeType": "image/jpeg",
+                                        "size": 29205
+                                    }
+                                }
+                            ]
+                        },
+                        "langs": [
+                            "en"
+                        ],
+                        "text": "Kentucky convicted child predator & January 6th defendant, Andrew Grisby, has been pardoned by Donald Trump."
+                    },
+                    "labels": [],
+                    "likeCount": 1274,
+                    "replyCount": 144,
+                    "repostCount": 910,
+                    "quoteCount": 175,
+                    "indexedAt": "2025-01-23T19:14:42.353Z",
+                    "embeds": [
+                        {
+                            "$type": "app.bsky.embed.images#view",
+                            "images": [
+                                {
+                                    "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:eudqnxnhhfte4u752te2oib7/bafkreihwynx6dldpzqn245leiezevu3xmyvfqllvybcj6yeuktqxvkin2e@jpeg",
+                                    "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:eudqnxnhhfte4u752te2oib7/bafkreihwynx6dldpzqn245leiezevu3xmyvfqllvybcj6yeuktqxvkin2e@jpeg",
+                                    "alt": "",
+                                    "aspectRatio": {
+                                        "height": 194,
+                                        "width": 194
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "replyCount": 433,
+            "repostCount": 2388,
+            "likeCount": 4095,
+            "quoteCount": 182,
+            "indexedAt": "2025-01-23T20:13:33.257Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:gkgmduxh722ocstroyi75gbg/app.bsky.feed.post/3lgji3bh2h22a",
+            "cid": "bafyreiek6qwrb5aojbevp3vtf2phyo375wc2oauow3x77xzdontqyx7eiq",
+            "author": {
+                "did": "did:plc:gkgmduxh722ocstroyi75gbg",
+                "handle": "mjfree.bsky.social",
+                "displayName": "Morgan J Freeman",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gkgmduxh722ocstroyi75gbg/bafkreifbzf5kuau7gomna24zifgthxvsgjyvikvpv4chktct5qcgbtdjsy@jpeg",
+                "labels": [],
+                "createdAt": "2024-11-09T03:00:34.077Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T22:47:21.666Z",
+                "langs": [
+                    "en"
+                ],
+                "text": "IMPEACH & CONVICT TRUMP FOR ABUSE OF POWER & VIOLATING HIS OATH."
+            },
+            "replyCount": 211,
+            "repostCount": 889,
+            "likeCount": 4116,
+            "quoteCount": 49,
+            "indexedAt": "2025-01-24T22:47:21.859Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:7qqkq2zdwq4j5jingukgtuky/app.bsky.feed.post/3lgg46hoc4s2w",
+            "cid": "bafyreiddbv2mxbelajt3x7h3jbocsluciz7i4cpqunmkxexyoftca7p2d4",
+            "author": {
+                "did": "did:plc:7qqkq2zdwq4j5jingukgtuky",
+                "handle": "joncooper-us.bsky.social",
+                "displayName": "Jon Cooper",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7qqkq2zdwq4j5jingukgtuky/bafkreifxcm6iu4wfjapuut3fyrjygvejmk5ldyfb42uie4my6oxitu7v6m@jpeg",
+                "labels": [],
+                "createdAt": "2024-11-09T17:04:06.584Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-23T14:36:24.737Z",
+                "embed": {
+                    "$type": "app.bsky.embed.images",
+                    "images": [
+                        {
+                            "alt": "",
+                            "aspectRatio": {
+                                "height": 542,
+                                "width": 720
+                            },
+                            "image": {
+                                "$type": "blob",
+                                "ref": {
+                                    "$link": "bafkreihdabc3q2sc34lqhurx4nn4w3bw5koaigqklgwll7m2rvhoqwjhg4"
+                                },
+                                "mimeType": "image/jpeg",
+                                "size": 257303
+                            }
+                        }
+                    ]
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "Trump really is a global laughingstock."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.images#view",
+                "images": [
+                    {
+                        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:7qqkq2zdwq4j5jingukgtuky/bafkreihdabc3q2sc34lqhurx4nn4w3bw5koaigqklgwll7m2rvhoqwjhg4@jpeg",
+                        "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:7qqkq2zdwq4j5jingukgtuky/bafkreihdabc3q2sc34lqhurx4nn4w3bw5koaigqklgwll7m2rvhoqwjhg4@jpeg",
+                        "alt": "",
+                        "aspectRatio": {
+                            "height": 542,
+                            "width": 720
+                        }
+                    }
+                ]
+            },
+            "replyCount": 274,
+            "repostCount": 1422,
+            "likeCount": 6324,
+            "quoteCount": 64,
+            "indexedAt": "2025-01-23T14:36:27.849Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:q3glmp5enr5gkuu2uaosjker/app.bsky.feed.post/3lgjlnrzpnk25",
+            "cid": "bafyreigb3q4ybqrrvjqjdslekqfggf7wez2lkcf2vfhxfkdyehbrutibzu",
+            "author": {
+                "did": "did:plc:q3glmp5enr5gkuu2uaosjker",
+                "handle": "joycewhitevance.bsky.social",
+                "displayName": "Joyce White Vance",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:q3glmp5enr5gkuu2uaosjker/bafkreiaj4zt32jskcwb4lzl4p6ap4bbjrguajltggzb7cfdxzkdvs7weme@jpeg",
+                "labels": [],
+                "createdAt": "2023-07-04T22:50:59.762Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T23:51:24.262Z",
+                "embed": {
+                    "$type": "app.bsky.embed.record",
+                    "record": {
+                        "cid": "bafyreigzceysnzq7afzlbopq7kowbuxhh3u3wolcwv2vfkir5nv6erystu",
+                        "uri": "at://did:plc:7nagdvjqrzaquzk7mueohne5/app.bsky.feed.post/3lgjgsb4q3k2n"
+                    }
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "Trump DOJ : Gerrymandering is okie dokie."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.record#view",
+                "record": {
+                    "$type": "app.bsky.embed.record#viewRecord",
+                    "uri": "at://did:plc:7nagdvjqrzaquzk7mueohne5/app.bsky.feed.post/3lgjgsb4q3k2n",
+                    "cid": "bafyreigzceysnzq7afzlbopq7kowbuxhh3u3wolcwv2vfkir5nv6erystu",
+                    "author": {
+                        "did": "did:plc:7nagdvjqrzaquzk7mueohne5",
+                        "handle": "mcpli.bsky.social",
+                        "displayName": "Michael Li (\u674e\u4e4b\u6a38)",
+                        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7nagdvjqrzaquzk7mueohne5/bafkreifqd4wkar45x4snn2l4bhvjoqsjzkwhdg4ij7w65jwlreuixuxpt4@jpeg",
+                        "labels": [],
+                        "createdAt": "2023-09-25T14:41:11.374Z"
+                    },
+                    "value": {
+                        "$type": "app.bsky.feed.post",
+                        "createdAt": "2025-01-24T22:24:25.595Z",
+                        "embed": {
+                            "$type": "app.bsky.embed.images",
+                            "images": [
+                                {
+                                    "alt": "",
+                                    "aspectRatio": {
+                                        "height": 2000,
+                                        "width": 1161
+                                    },
+                                    "image": {
+                                        "$type": "blob",
+                                        "ref": {
+                                            "$link": "bafkreial2e377id22qcxcx2a53afjlxkauy5hf6itzsbijbudu3w4lr7s4"
+                                        },
+                                        "mimeType": "image/jpeg",
+                                        "size": 607563
+                                    }
+                                }
+                            ]
+                        },
+                        "langs": [
+                            "en"
+                        ],
+                        "text": "In a letter filed today, DOJ has told SCOTUS that it is withdrawing its amicus brief in the Louisiana racial gerrymandering case and no longer wishes to participate in oral argument."
+                    },
+                    "labels": [],
+                    "likeCount": 72,
+                    "replyCount": 5,
+                    "repostCount": 46,
+                    "quoteCount": 10,
+                    "indexedAt": "2025-01-24T22:24:27.754Z",
+                    "embeds": [
+                        {
+                            "$type": "app.bsky.embed.images#view",
+                            "images": [
+                                {
+                                    "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:7nagdvjqrzaquzk7mueohne5/bafkreial2e377id22qcxcx2a53afjlxkauy5hf6itzsbijbudu3w4lr7s4@jpeg",
+                                    "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:7nagdvjqrzaquzk7mueohne5/bafkreial2e377id22qcxcx2a53afjlxkauy5hf6itzsbijbudu3w4lr7s4@jpeg",
+                                    "alt": "",
+                                    "aspectRatio": {
+                                        "height": 2000,
+                                        "width": 1161
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "replyCount": 84,
+            "repostCount": 499,
+            "likeCount": 1380,
+            "quoteCount": 20,
+            "indexedAt": "2025-01-24T23:51:25.262Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:dd5oeph7qd6x42t6j2kumgvr/app.bsky.feed.post/3lgj5lehy5s2p",
+            "cid": "bafyreigboq6tn7td5fppoqh2ruywl7z4b5fkwfltbuocukxiitzp75faki",
+            "author": {
+                "did": "did:plc:dd5oeph7qd6x42t6j2kumgvr",
+                "handle": "calltoactivism.bsky.social",
+                "displayName": "CALL TO ACTIVISM",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:dd5oeph7qd6x42t6j2kumgvr/bafkreiecaqb3s2cehpgoxei3ulonksx5mskw6dwe22keajwc54bdtapvkq@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "all"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2023-05-23T00:56:31.178Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T19:39:30.552Z",
+                "embed": {
+                    "$type": "app.bsky.embed.images",
+                    "images": [
+                        {
+                            "alt": "",
+                            "aspectRatio": {
+                                "height": 842,
+                                "width": 1100
+                            },
+                            "image": {
+                                "$type": "blob",
+                                "ref": {
+                                    "$link": "bafkreickxep4mgnd42umbletxnfizcbruge2fp7wnce47ioqnzzmwqwylq"
+                                },
+                                "mimeType": "image/jpeg",
+                                "size": 600216
+                            }
+                        }
+                    ]
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "BOOM! Bishop Mariann Budde has responded to her critics who told her to apologize to Donald Trump. \n\n\u201cI am not going to apologize for asking for mercy for others.\u201d\n\nSmash that repost if you agree she owes Trump ZERO apologies!! \ud83e\udd8b"
+            },
+            "embed": {
+                "$type": "app.bsky.embed.images#view",
+                "images": [
+                    {
+                        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:dd5oeph7qd6x42t6j2kumgvr/bafkreickxep4mgnd42umbletxnfizcbruge2fp7wnce47ioqnzzmwqwylq@jpeg",
+                        "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:dd5oeph7qd6x42t6j2kumgvr/bafkreickxep4mgnd42umbletxnfizcbruge2fp7wnce47ioqnzzmwqwylq@jpeg",
+                        "alt": "",
+                        "aspectRatio": {
+                            "height": 842,
+                            "width": 1100
+                        }
+                    }
+                ]
+            },
+            "replyCount": 466,
+            "repostCount": 7228,
+            "likeCount": 19306,
+            "quoteCount": 335,
+            "indexedAt": "2025-01-24T19:39:32.855Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:z4x4hbnyqx57u5e7qqeyrlh6/app.bsky.feed.post/3lgjg5qx4b22y",
+            "cid": "bafyreie5oiaezg2j2japkpftg3dagdbrotaasjsyerfy4gyaisovxvgljm",
+            "author": {
+                "did": "did:plc:z4x4hbnyqx57u5e7qqeyrlh6",
+                "handle": "convolver.bsky.social",
+                "displayName": "Convolver",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z4x4hbnyqx57u5e7qqeyrlh6/bafkreihnriyxpeicslgmc2fsx2j42bz5iz54yjfuhxihijvfgt7cv6llme@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "following"
+                    }
+                },
+                "labels": [
+                    {
+                        "src": "did:plc:z4x4hbnyqx57u5e7qqeyrlh6",
+                        "uri": "at://did:plc:z4x4hbnyqx57u5e7qqeyrlh6/app.bsky.actor.profile/self",
+                        "cid": "bafyreiadpgnrq4l3hozqdiwsjfbtdzkk3c22bxgaz5qpcupawd6wqzinoq",
+                        "val": "!no-unauthenticated",
+                        "cts": "1970-01-01T00:00:00.000Z"
+                    }
+                ],
+                "createdAt": "2023-08-25T02:32:00.991Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T22:12:57.548Z",
+                "embed": {
+                    "$type": "app.bsky.embed.record",
+                    "record": {
+                        "cid": "bafyreifb6jjkrprq5vtighxyir2ooqgmmwnw2ccpkskaoibujnpjqbxlx4",
+                        "uri": "at://did:plc:z6rujpf4u56jfie7aqic2nfg/app.bsky.feed.post/3lgjg3dn77s2m"
+                    }
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "Trump learning that other countries get a vote, too."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.record#view",
+                "record": {
+                    "$type": "app.bsky.embed.record#viewRecord",
+                    "uri": "at://did:plc:z6rujpf4u56jfie7aqic2nfg/app.bsky.feed.post/3lgjg3dn77s2m",
+                    "cid": "bafyreifb6jjkrprq5vtighxyir2ooqgmmwnw2ccpkskaoibujnpjqbxlx4",
+                    "author": {
+                        "did": "did:plc:z6rujpf4u56jfie7aqic2nfg",
+                        "handle": "carlquintanilla.bsky.social",
+                        "displayName": "Carl Quintanilla",
+                        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z6rujpf4u56jfie7aqic2nfg/bafkreiaxx6cojdlfuqarrnccb66ozmiqlxnm2eoyfujkpptbq3da6tgct4@jpeg",
+                        "labels": [],
+                        "createdAt": "2023-05-13T15:06:52.094Z"
+                    },
+                    "value": {
+                        "$type": "app.bsky.feed.post",
+                        "createdAt": "2025-01-24T22:11:36.476Z",
+                        "embed": {
+                            "$type": "app.bsky.embed.external",
+                            "external": {
+                                "description": "The Mexican government has criticized President Donald Trump's unilateral immigration actions, and the landing would have required Mexico's assistance.",
+                                "thumb": {
+                                    "$type": "blob",
+                                    "ref": {
+                                        "$link": "bafkreifj3kkwvin6dd5jqrci6vttgfegybwferz2rqgrp3ulu7322g72ky"
+                                    },
+                                    "mimeType": "image/jpeg",
+                                    "size": 276268
+                                },
+                                "title": "Mexico refuses to accept a U.S. deportation flight",
+                                "uri": "https://www.nbcnews.com/politics/immigration/mexico-refuses-accept-us-deportation-flight-rcna189182"
+                            }
+                        },
+                        "facets": [
+                            {
+                                "features": [
+                                    {
+                                        "$type": "app.bsky.richtext.facet#link",
+                                        "uri": "https://www.nbcnews.com/politics/immigration/mexico-refuses-accept-us-deportation-flight-rcna189182"
+                                    }
+                                ],
+                                "index": {
+                                    "byteEnd": 296,
+                                    "byteStart": 265
+                                }
+                            }
+                        ],
+                        "langs": [
+                            "en"
+                        ],
+                        "text": "(NBC News) - Mexico denied a U.S. military plane access to land Thursday, at least temporarily frustrating the Trump administration's plans to deport immigrants to the country, according to two U.S defense officials and a third person familiar with the situation.\n\nwww.nbcnews.com/politics/imm..."
+                    },
+                    "labels": [],
+                    "likeCount": 4242,
+                    "replyCount": 285,
+                    "repostCount": 1181,
+                    "quoteCount": 315,
+                    "indexedAt": "2025-01-24T22:11:38.353Z",
+                    "embeds": [
+                        {
+                            "$type": "app.bsky.embed.external#view",
+                            "external": {
+                                "uri": "https://www.nbcnews.com/politics/immigration/mexico-refuses-accept-us-deportation-flight-rcna189182",
+                                "title": "Mexico refuses to accept a U.S. deportation flight",
+                                "description": "The Mexican government has criticized President Donald Trump's unilateral immigration actions, and the landing would have required Mexico's assistance.",
+                                "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:z6rujpf4u56jfie7aqic2nfg/bafkreifj3kkwvin6dd5jqrci6vttgfegybwferz2rqgrp3ulu7322g72ky@jpeg"
+                            }
+                        }
+                    ]
+                }
+            },
+            "replyCount": 65,
+            "repostCount": 310,
+            "likeCount": 2292,
+            "quoteCount": 11,
+            "indexedAt": "2025-01-24T22:12:58.048Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:tqbddflje6gou64cqm6fecmx/app.bsky.feed.post/3lgiwjipko22r",
+            "cid": "bafyreicd43tadtvc4ur3ti65vfjhua6l5z6s2fbtovk2cltlcecebp5tre",
+            "author": {
+                "did": "did:plc:tqbddflje6gou64cqm6fecmx",
+                "handle": "walshfreedom.bsky.social",
+                "displayName": "Joe Walsh",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:tqbddflje6gou64cqm6fecmx/bafkreihgjduo2wqu4v2q3hsdugkx3rr4y54huo3fjje5ox72idfb3qenoe@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "all"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2023-06-08T13:31:45.914Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T17:33:11.697Z",
+                "embed": {
+                    "$type": "app.bsky.embed.external",
+                    "external": {
+                        "description": "When asked if he would cut funding to Los Angeles following the wild fire disaster, Trump set clear conditions he needed to have met.",
+                        "thumb": {
+                            "$type": "blob",
+                            "ref": {
+                                "$link": "bafkreih7aoanqa5omlbkzcquzsyudxltmweztl4txmum4jo4ciqhc7555q"
+                            },
+                            "mimeType": "image/jpeg",
+                            "size": 434226
+                        },
+                        "title": "Trump Threatens to Cut Funding to Los Angeles Unless California Meets His Conditions",
+                        "uri": "https://www.mediaite.com/trump/trump-threatens-to-cut-funding-to-los-angeles-unless-california-meets-his-conditions/"
+                    }
+                },
+                "facets": [
+                    {
+                        "features": [
+                            {
+                                "$type": "app.bsky.richtext.facet#link",
+                                "uri": "https://www.mediaite.com/trump/trump-threatens-to-cut-funding-to-los-angeles-unless-california-meets-his-conditions/"
+                            }
+                        ],
+                        "index": {
+                            "byteEnd": 72,
+                            "byteStart": 40
+                        }
+                    }
+                ],
+                "langs": [
+                    "en"
+                ],
+                "text": "He\u2019s an utterly horrible human being. www.mediaite.com/trump/trump-..."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.external#view",
+                "external": {
+                    "uri": "https://www.mediaite.com/trump/trump-threatens-to-cut-funding-to-los-angeles-unless-california-meets-his-conditions/",
+                    "title": "Trump Threatens to Cut Funding to Los Angeles Unless California Meets His Conditions",
+                    "description": "When asked if he would cut funding to Los Angeles following the wild fire disaster, Trump set clear conditions he needed to have met.",
+                    "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:tqbddflje6gou64cqm6fecmx/bafkreih7aoanqa5omlbkzcquzsyudxltmweztl4txmum4jo4ciqhc7555q@jpeg"
+                }
+            },
+            "replyCount": 80,
+            "repostCount": 85,
+            "likeCount": 449,
+            "quoteCount": 6,
+            "indexedAt": "2025-01-24T17:33:14.056Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:gkgmduxh722ocstroyi75gbg/app.bsky.feed.post/3lgifxiinwc2o",
+            "cid": "bafyreiboi7dwcyxjkpwlkn324irw2765btrikwnwvyvdy7ngupf7xysvqa",
+            "author": {
+                "did": "did:plc:gkgmduxh722ocstroyi75gbg",
+                "handle": "mjfree.bsky.social",
+                "displayName": "Morgan J Freeman",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gkgmduxh722ocstroyi75gbg/bafkreifbzf5kuau7gomna24zifgthxvsgjyvikvpv4chktct5qcgbtdjsy@jpeg",
+                "labels": [],
+                "createdAt": "2024-11-09T03:00:34.077Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T12:36:47.620Z",
+                "embed": {
+                    "$type": "app.bsky.embed.video",
+                    "aspectRatio": {
+                        "height": 720,
+                        "width": 1280
+                    },
+                    "video": {
+                        "$type": "blob",
+                        "ref": {
+                            "$link": "bafkreicggiijd2kw5czpwv3xpdfcq7rwzkd5ofi735nma4xm663qvuakyy"
+                        },
+                        "mimeType": "video/mp4",
+                        "size": 11996206
+                    }
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "I'm going to post this video every day so we never forget INSURRECTIONIST TRUMP!"
+            },
+            "embed": {
+                "$type": "app.bsky.embed.video#view",
+                "cid": "bafkreicggiijd2kw5czpwv3xpdfcq7rwzkd5ofi735nma4xm663qvuakyy",
+                "playlist": "https://video.bsky.app/watch/did%3Aplc%3Agkgmduxh722ocstroyi75gbg/bafkreicggiijd2kw5czpwv3xpdfcq7rwzkd5ofi735nma4xm663qvuakyy/playlist.m3u8",
+                "thumbnail": "https://video.bsky.app/watch/did%3Aplc%3Agkgmduxh722ocstroyi75gbg/bafkreicggiijd2kw5czpwv3xpdfcq7rwzkd5ofi735nma4xm663qvuakyy/thumbnail.jpg",
+                "aspectRatio": {
+                    "height": 720,
+                    "width": 1280
+                }
+            },
+            "replyCount": 218,
+            "repostCount": 3079,
+            "likeCount": 8923,
+            "quoteCount": 134,
+            "indexedAt": "2025-01-24T12:36:47.756Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:dd5oeph7qd6x42t6j2kumgvr/app.bsky.feed.post/3lgjjlta5nc2b",
+            "cid": "bafyreibtia6h73r4ejcpcmg3zjhimm7va2sqiik675ly2p7wye5udsr4du",
+            "author": {
+                "did": "did:plc:dd5oeph7qd6x42t6j2kumgvr",
+                "handle": "calltoactivism.bsky.social",
+                "displayName": "CALL TO ACTIVISM",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:dd5oeph7qd6x42t6j2kumgvr/bafkreiecaqb3s2cehpgoxei3ulonksx5mskw6dwe22keajwc54bdtapvkq@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "all"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2023-05-23T00:56:31.178Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T23:14:30.923Z",
+                "embed": {
+                    "$type": "app.bsky.embed.images",
+                    "images": [
+                        {
+                            "alt": "",
+                            "aspectRatio": {
+                                "height": 582,
+                                "width": 1324
+                            },
+                            "image": {
+                                "$type": "blob",
+                                "ref": {
+                                    "$link": "bafkreihdxrwsnschlmpjvtzd3bi7ncah4zu2cna37kf2cymqofe3w7rqni"
+                                },
+                                "mimeType": "image/jpeg",
+                                "size": 354406
+                            }
+                        }
+                    ]
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "BREAKING NEWS:\n\nDonald Trump has just signed an Executive Order that appears to officially suspend US military aid to Ukraine. \n\nThe order is effective immediately.\n\nThere is no denying that Donald Trump is Putin\u2019s pawn."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.images#view",
+                "images": [
+                    {
+                        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:dd5oeph7qd6x42t6j2kumgvr/bafkreihdxrwsnschlmpjvtzd3bi7ncah4zu2cna37kf2cymqofe3w7rqni@jpeg",
+                        "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:dd5oeph7qd6x42t6j2kumgvr/bafkreihdxrwsnschlmpjvtzd3bi7ncah4zu2cna37kf2cymqofe3w7rqni@jpeg",
+                        "alt": "",
+                        "aspectRatio": {
+                            "height": 582,
+                            "width": 1324
+                        }
+                    }
+                ]
+            },
+            "replyCount": 709,
+            "repostCount": 2797,
+            "likeCount": 6175,
+            "quoteCount": 361,
+            "indexedAt": "2025-01-24T23:14:33.849Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:t6ubj2wlhc34awzcymh3qpur/app.bsky.feed.post/3lgeybjbvu224",
+            "cid": "bafyreihkjrd4cro3fl34bphpi3trrrnjzjx5hhahacp3xtktobyuobm5g4",
+            "author": {
+                "did": "did:plc:t6ubj2wlhc34awzcymh3qpur",
+                "handle": "ronfilipkowski.bsky.social",
+                "displayName": "Ron Filipkowski",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:t6ubj2wlhc34awzcymh3qpur/bafkreifqp5wczyswtq4g45yi73ivgtlhctw2jj3ghjfsve53k4tvli62cy@jpeg",
+                "labels": [],
+                "createdAt": "2024-11-11T14:12:30.479Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-23T03:53:52.388Z",
+                "embed": {
+                    "$type": "app.bsky.embed.images",
+                    "images": [
+                        {
+                            "alt": "",
+                            "aspectRatio": {
+                                "height": 1010,
+                                "width": 1290
+                            },
+                            "image": {
+                                "$type": "blob",
+                                "ref": {
+                                    "$link": "bafkreiadfuiphqqyfrl32flhw3rnygx63mqroo7xhgkcvgiadnozk6ptie"
+                                },
+                                "mimeType": "image/jpeg",
+                                "size": 321842
+                            }
+                        }
+                    ]
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "Sam has meeting with Trump.\nTrump praises Sam.\nElon gets jealous.\nElon says Sam is scamming Trump.\nElon post things Sam said in past about Trump.\nMAGA attacks Sam.\nSam surrenders and becomes cuck.\n\nJust like Zuck. Zuck 2.0."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.images#view",
+                "images": [
+                    {
+                        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:t6ubj2wlhc34awzcymh3qpur/bafkreiadfuiphqqyfrl32flhw3rnygx63mqroo7xhgkcvgiadnozk6ptie@jpeg",
+                        "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:t6ubj2wlhc34awzcymh3qpur/bafkreiadfuiphqqyfrl32flhw3rnygx63mqroo7xhgkcvgiadnozk6ptie@jpeg",
+                        "alt": "",
+                        "aspectRatio": {
+                            "height": 1010,
+                            "width": 1290
+                        }
+                    }
+                ]
+            },
+            "replyCount": 478,
+            "repostCount": 988,
+            "likeCount": 5432,
+            "quoteCount": 73,
+            "indexedAt": "2025-01-23T03:53:54.463Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:jtzkvyvqebayuxsk6f5snttx/app.bsky.feed.post/3lghezzbhy22k",
+            "cid": "bafyreibnyzurusuxzqf3e2hgyeqnruvuunb3eu4lu523phjkmdjahtgcl4",
+            "author": {
+                "did": "did:plc:jtzkvyvqebayuxsk6f5snttx",
+                "handle": "lawrenceodonnell.msnbc.com",
+                "displayName": "Lawrence O'Donnell",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jtzkvyvqebayuxsk6f5snttx/bafkreihd2kgyzvxqf2pzip2dkxjchzyh3qi6aufwbvlg5vap7b7nf7idey@jpeg",
+                "labels": [],
+                "createdAt": "2025-01-21T18:56:15.443Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T02:47:38.840Z",
+                "embed": {
+                    "$type": "app.bsky.embed.record",
+                    "record": {
+                        "cid": "bafyreidnrxd5eoa6wlrz52u25t2dl7rpqvzdtd7qmra4fcaxdj7kxpcqhq",
+                        "uri": "at://did:plc:4xib3uedihculokzs43x2l6c/app.bsky.feed.post/3lgh7k3z5oc24"
+                    }
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "Another Judge stops Trump"
+            },
+            "embed": {
+                "$type": "app.bsky.embed.record#view",
+                "record": {
+                    "$type": "app.bsky.embed.record#viewRecord",
+                    "uri": "at://did:plc:4xib3uedihculokzs43x2l6c/app.bsky.feed.post/3lgh7k3z5oc24",
+                    "cid": "bafyreidnrxd5eoa6wlrz52u25t2dl7rpqvzdtd7qmra4fcaxdj7kxpcqhq",
+                    "author": {
+                        "did": "did:plc:4xib3uedihculokzs43x2l6c",
+                        "handle": "lastword.msnbc.com",
+                        "displayName": "The Last Word with Lawrence O'Donnell",
+                        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4xib3uedihculokzs43x2l6c/bafkreiaet3zd6fgyjyurgx4kg2thqg2cnwwzle5phqojjudpy3nlmrq3fa@jpeg",
+                        "labels": [],
+                        "createdAt": "2024-11-19T04:23:45.504Z"
+                    },
+                    "value": {
+                        "$type": "app.bsky.feed.post",
+                        "createdAt": "2025-01-24T01:09:16.102Z",
+                        "embed": {
+                            "$type": "app.bsky.embed.images",
+                            "images": [
+                                {
+                                    "alt": "",
+                                    "aspectRatio": {
+                                        "height": 1080,
+                                        "width": 1920
+                                    },
+                                    "image": {
+                                        "$type": "blob",
+                                        "ref": {
+                                            "$link": "bafkreie7impdxl2h7yizw2z4zq3ktrih73ubdgu3bikx6jrg3shdyukrki"
+                                        },
+                                        "mimeType": "image/jpeg",
+                                        "size": 337997
+                                    }
+                                }
+                            ]
+                        },
+                        "facets": [
+                            {
+                                "$type": "app.bsky.richtext.facet",
+                                "features": [
+                                    {
+                                        "$type": "app.bsky.richtext.facet#mention",
+                                        "did": "did:plc:jrqtx2xgknaf4d2cwbv7akld"
+                                    }
+                                ],
+                                "index": {
+                                    "byteEnd": 32,
+                                    "byteStart": 9
+                                }
+                            },
+                            {
+                                "$type": "app.bsky.richtext.facet",
+                                "features": [
+                                    {
+                                        "$type": "app.bsky.richtext.facet#mention",
+                                        "did": "did:plc:jtzkvyvqebayuxsk6f5snttx"
+                                    }
+                                ],
+                                "index": {
+                                    "byteEnd": 66,
+                                    "byteStart": 39
+                                }
+                            },
+                            {
+                                "features": [
+                                    {
+                                        "$type": "app.bsky.richtext.facet#tag",
+                                        "tag": "LastWord"
+                                    }
+                                ],
+                                "index": {
+                                    "byteEnd": 83,
+                                    "byteStart": 74
+                                }
+                            }
+                        ],
+                        "langs": [
+                            "en"
+                        ],
+                        "text": "TONIGHT: @nealkatyal.bsky.social joins @lawrenceodonnell.msnbc.com on The #LastWord at 10pm ET."
+                    },
+                    "labels": [],
+                    "likeCount": 375,
+                    "replyCount": 13,
+                    "repostCount": 30,
+                    "quoteCount": 3,
+                    "indexedAt": "2025-01-24T01:09:19.862Z",
+                    "embeds": [
+                        {
+                            "$type": "app.bsky.embed.images#view",
+                            "images": [
+                                {
+                                    "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:4xib3uedihculokzs43x2l6c/bafkreie7impdxl2h7yizw2z4zq3ktrih73ubdgu3bikx6jrg3shdyukrki@jpeg",
+                                    "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:4xib3uedihculokzs43x2l6c/bafkreie7impdxl2h7yizw2z4zq3ktrih73ubdgu3bikx6jrg3shdyukrki@jpeg",
+                                    "alt": "",
+                                    "aspectRatio": {
+                                        "height": 1080,
+                                        "width": 1920
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "replyCount": 46,
+            "repostCount": 120,
+            "likeCount": 1077,
+            "quoteCount": 4,
+            "indexedAt": "2025-01-24T02:47:39.152Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:e62gb2ushvtvjvqcbrxeaw2n/app.bsky.feed.post/3lgjaqsbz2c2c",
+            "cid": "bafyreicnjq3defghdykpkx2vxyu67wusbnoplp3jugmlp56an5zorsitci",
+            "author": {
+                "did": "did:plc:e62gb2ushvtvjvqcbrxeaw2n",
+                "handle": "chrislhayes.bsky.social",
+                "displayName": "Chris Hayes",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:e62gb2ushvtvjvqcbrxeaw2n/bafkreignbhxunrcvqpwkgd6jshgjenc4at6rtbvfnwsyy5g32kq56cyfaq@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "following"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2023-04-29T01:20:57.120Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T20:36:14.033Z",
+                "embed": {
+                    "$type": "app.bsky.embed.external",
+                    "external": {
+                        "description": "Prosecutors emphatically objected to Ryan Samsel\u2019s release in a memorandum that laid out his history of violence and the failures of law enforcement to protect victims from his abuse.",
+                        "thumb": {
+                            "$type": "blob",
+                            "ref": {
+                                "$link": "bafkreiaued5dj7wpmibsfuwwwj56stczum4fdwxc3cejvuksrgssgotzgi"
+                            },
+                            "mimeType": "image/jpeg",
+                            "size": 178506
+                        },
+                        "title": "Capitol riot defendant once brutally attacked pregnant girlfriend: \u2018I was afraid he was going to kill me\u2019",
+                        "uri": "https://www.washingtonpost.com/nation/2021/06/03/capitol-riot-ryan-samsel-violence/"
+                    }
+                },
+                "facets": [
+                    {
+                        "features": [
+                            {
+                                "$type": "app.bsky.richtext.facet#link",
+                                "uri": "https://www.washingtonpost.com/nation/2021/06/03/capitol-riot-ryan-samsel-violence/"
+                            }
+                        ],
+                        "index": {
+                            "byteEnd": 76,
+                            "byteStart": 38
+                        }
+                    }
+                ],
+                "langs": [
+                    "en"
+                ],
+                "text": "This guy is now out thanks to Trump.\n\nwww.washingtonpost.com/nation/2021/..."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.external#view",
+                "external": {
+                    "uri": "https://www.washingtonpost.com/nation/2021/06/03/capitol-riot-ryan-samsel-violence/",
+                    "title": "Capitol riot defendant once brutally attacked pregnant girlfriend: \u2018I was afraid he was going to kill me\u2019",
+                    "description": "Prosecutors emphatically objected to Ryan Samsel\u2019s release in a memorandum that laid out his history of violence and the failures of law enforcement to protect victims from his abuse.",
+                    "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:e62gb2ushvtvjvqcbrxeaw2n/bafkreiaued5dj7wpmibsfuwwwj56stczum4fdwxc3cejvuksrgssgotzgi@jpeg"
+                }
+            },
+            "replyCount": 148,
+            "repostCount": 659,
+            "likeCount": 2514,
+            "quoteCount": 37,
+            "indexedAt": "2025-01-24T20:36:15.950Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:4llrhdclvdlmmynkwsmg5tdc/app.bsky.feed.post/3lgessyyz6v2q",
+            "cid": "bafyreiaou6hufrvgstueznq3muzitwwd3loveavjb2aqwhojszibdymame",
+            "author": {
+                "did": "did:plc:4llrhdclvdlmmynkwsmg5tdc",
+                "handle": "atrupar.com",
+                "displayName": "Aaron Rupar",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4llrhdclvdlmmynkwsmg5tdc/bafkreibmhm3h6ar52pogvolisrzjdhwa2myras5vkxzj67twxn2l6pogwu@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "following"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2023-04-28T00:47:57.437Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-23T02:16:16.742Z",
+                "embed": {
+                    "$type": "app.bsky.embed.video",
+                    "alt": "",
+                    "aspectRatio": {
+                        "height": 1080,
+                        "width": 1920
+                    },
+                    "captions": [
+                        {
+                            "$type": "app.bsky.embed.video#caption",
+                            "file": {
+                                "$type": "blob",
+                                "ref": {
+                                    "$link": "bafkreih47jbyc5pz23r4aiaflt3l2yc276kp5s2fibncjvwginsh6b5q3a"
+                                },
+                                "mimeType": "text/vtt",
+                                "size": 557
+                            },
+                            "lang": "en"
+                        }
+                    ],
+                    "video": {
+                        "$type": "blob",
+                        "ref": {
+                            "$link": "bafkreihd2vkjqjlvlm23nktjzv3r2vtfobk6eyjbmedsbq5n3oyvobbpgm"
+                        },
+                        "mimeType": "video/mp4",
+                        "size": 4881027
+                    }
+                },
+                "facets": [],
+                "langs": [
+                    "en"
+                ],
+                "text": "Trump: \"I won youth by 36 points.\" (This is a ridiculous lie -- Trump lost the youth vote.)"
+            },
+            "embed": {
+                "$type": "app.bsky.embed.video#view",
+                "cid": "bafkreihd2vkjqjlvlm23nktjzv3r2vtfobk6eyjbmedsbq5n3oyvobbpgm",
+                "playlist": "https://video.bsky.app/watch/did%3Aplc%3A4llrhdclvdlmmynkwsmg5tdc/bafkreihd2vkjqjlvlm23nktjzv3r2vtfobk6eyjbmedsbq5n3oyvobbpgm/playlist.m3u8",
+                "thumbnail": "https://video.bsky.app/watch/did%3Aplc%3A4llrhdclvdlmmynkwsmg5tdc/bafkreihd2vkjqjlvlm23nktjzv3r2vtfobk6eyjbmedsbq5n3oyvobbpgm/thumbnail.jpg",
+                "alt": "",
+                "aspectRatio": {
+                    "height": 1080,
+                    "width": 1920
+                }
+            },
+            "replyCount": 365,
+            "repostCount": 850,
+            "likeCount": 5055,
+            "quoteCount": 69,
+            "indexedAt": "2025-01-23T02:16:17.458Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:ami7o3cslvxmc3utm523o2go/app.bsky.feed.post/3lgig4qpumk2t",
+            "cid": "bafyreiezqszzeyyjoa6pger636st626z4pcxflkmeoiv2tuxuojs65egse",
+            "author": {
+                "did": "did:plc:ami7o3cslvxmc3utm523o2go",
+                "handle": "treadres.bsky.social",
+                "displayName": "Theprogressive",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ami7o3cslvxmc3utm523o2go/bafkreicb4sy6j6z7kc6xpfaaev4ggabcghjmi4dk27zjfpptx3cunohck4@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "none"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2024-11-14T16:10:37.424Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T12:39:44.018Z",
+                "langs": [
+                    "en"
+                ],
+                "text": "'Trans for Trump' and 'Latinos for Trump' have been awfully quiet these few days."
+            },
+            "replyCount": 35,
+            "repostCount": 83,
+            "likeCount": 587,
+            "quoteCount": 6,
+            "indexedAt": "2025-01-24T12:39:44.466Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:t6ubj2wlhc34awzcymh3qpur/app.bsky.feed.post/3lgexbs2vuk24",
+            "cid": "bafyreib64qkukiwrtlp6kkcrlejo2q243naasmo5cqwp5ak22ox3nnmvre",
+            "author": {
+                "did": "did:plc:t6ubj2wlhc34awzcymh3qpur",
+                "handle": "ronfilipkowski.bsky.social",
+                "displayName": "Ron Filipkowski",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:t6ubj2wlhc34awzcymh3qpur/bafkreifqp5wczyswtq4g45yi73ivgtlhctw2jj3ghjfsve53k4tvli62cy@jpeg",
+                "labels": [],
+                "createdAt": "2024-11-11T14:12:30.479Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-23T03:36:07.858Z",
+                "langs": [
+                    "en"
+                ],
+                "text": "Trump pardoned thugs who beat up cops and put a hiring freeze on the VA. I guess that\u2019s the Republican brand under Trump."
+            },
+            "replyCount": 260,
+            "repostCount": 1642,
+            "likeCount": 8684,
+            "quoteCount": 40,
+            "indexedAt": "2025-01-23T03:36:08.261Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:uqnyrpls22pqbicmdkwnlvli/app.bsky.feed.post/3lgi7y7hapc2q",
+            "cid": "bafyreigqkzi275ystrwsff2zvptvanux45ewnshut7avzcjfwxjnkjpw5a",
+            "author": {
+                "did": "did:plc:uqnyrpls22pqbicmdkwnlvli",
+                "handle": "isabelsantos.bsky.social",
+                "displayName": "Isabel Santos",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:uqnyrpls22pqbicmdkwnlvli/bafkreidnz2abz6o62zcxhizxwnenyq2mledaeajq6ufujcd4y7zuud3jbi@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "none"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2023-10-16T21:36:00.493Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T10:49:49.241Z",
+                "embed": {
+                    "$type": "app.bsky.embed.images",
+                    "images": [
+                        {
+                            "alt": "",
+                            "aspectRatio": {
+                                "height": 1495,
+                                "width": 1506
+                            },
+                            "image": {
+                                "$type": "blob",
+                                "ref": {
+                                    "$link": "bafkreic6wntvleo5z6ed3huzt6ubjsw4i6gqkyloxcrqfdqwxfncrrh7cq"
+                                },
+                                "mimeType": "image/jpeg",
+                                "size": 446713
+                            }
+                        }
+                    ]
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "Mary Trump assessing the situation, do you agree with her?"
+            },
+            "embed": {
+                "$type": "app.bsky.embed.images#view",
+                "images": [
+                    {
+                        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:uqnyrpls22pqbicmdkwnlvli/bafkreic6wntvleo5z6ed3huzt6ubjsw4i6gqkyloxcrqfdqwxfncrrh7cq@jpeg",
+                        "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:uqnyrpls22pqbicmdkwnlvli/bafkreic6wntvleo5z6ed3huzt6ubjsw4i6gqkyloxcrqfdqwxfncrrh7cq@jpeg",
+                        "alt": "",
+                        "aspectRatio": {
+                            "height": 1495,
+                            "width": 1506
+                        }
+                    }
+                ]
+            },
+            "replyCount": 128,
+            "repostCount": 640,
+            "likeCount": 2188,
+            "quoteCount": 34,
+            "indexedAt": "2025-01-24T10:49:51.052Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:jtzkvyvqebayuxsk6f5snttx/app.bsky.feed.post/3lgdnzuitbc2f",
+            "cid": "bafyreihqa4v5krdbnnrcuqdedeyc5gvatkjnl6doafdzugkyfyviwxc5sq",
+            "author": {
+                "did": "did:plc:jtzkvyvqebayuxsk6f5snttx",
+                "handle": "lawrenceodonnell.msnbc.com",
+                "displayName": "Lawrence O'Donnell",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jtzkvyvqebayuxsk6f5snttx/bafkreihd2kgyzvxqf2pzip2dkxjchzyh3qi6aufwbvlg5vap7b7nf7idey@jpeg",
+                "labels": [],
+                "createdAt": "2025-01-21T18:56:15.443Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-22T15:17:58.561Z",
+                "langs": [
+                    "en"
+                ],
+                "text": "TV audience for Inaugurations\n\nBiden 40 million\n\nTrump 38 million 2017\n\nTrump 34 million 2025\n\nThere is a distinct possibility Trump will lie about this."
+            },
+            "replyCount": 430,
+            "repostCount": 1280,
+            "likeCount": 6428,
+            "quoteCount": 84,
+            "indexedAt": "2025-01-22T15:17:58.861Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:nlihhwtwqwzekockkampz35v/app.bsky.feed.post/3lgiugzbhnc2n",
+            "cid": "bafyreia2rugm7qwhaqbu7oxol6jlrbrfkvd6wrenxlxd4fo7ubwnqssz3e",
+            "author": {
+                "did": "did:plc:nlihhwtwqwzekockkampz35v",
+                "handle": "gregpalast.bsky.social",
+                "displayName": "Greg Palast",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:nlihhwtwqwzekockkampz35v/bafkreifqjul2fbsvzh2syvl5msi64wpquwgza423k227kn7bjc4rkcoxhm@jpeg",
+                "labels": [],
+                "createdAt": "2023-06-24T15:17:46.071Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T16:56:00.913Z",
+                "embed": {
+                    "$type": "app.bsky.embed.external",
+                    "external": {
+                        "description": "Here are the numbers...",
+                        "thumb": {
+                            "$type": "blob",
+                            "ref": {
+                                "$link": "bafkreic7oexvxqiypkprfa3nmpdx4mqaodgcihg7egbtund3zgk4ovjmeq"
+                            },
+                            "mimeType": "image/jpeg",
+                            "size": 360718
+                        },
+                        "title": "Trump Lost. Vote Suppression Won.",
+                        "uri": "https://www.gregpalast.com/trump-lost-vote-suppression-won/"
+                    }
+                },
+                "facets": [
+                    {
+                        "features": [
+                            {
+                                "$type": "app.bsky.richtext.facet#link",
+                                "uri": "https://www.gregpalast.com/trump-lost-vote-suppression-won/"
+                            }
+                        ],
+                        "index": {
+                            "byteEnd": 92,
+                            "byteStart": 58
+                        }
+                    }
+                ],
+                "langs": [
+                    "en"
+                ],
+                "text": "Trump Lost. Vote Suppression Won. Here are the numbers\u2026 www.gregpalast.com/trump-lost-v..."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.external#view",
+                "external": {
+                    "uri": "https://www.gregpalast.com/trump-lost-vote-suppression-won/",
+                    "title": "Trump Lost. Vote Suppression Won.",
+                    "description": "Here are the numbers...",
+                    "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:nlihhwtwqwzekockkampz35v/bafkreic7oexvxqiypkprfa3nmpdx4mqaodgcihg7egbtund3zgk4ovjmeq@jpeg"
+                }
+            },
+            "replyCount": 49,
+            "repostCount": 280,
+            "likeCount": 426,
+            "quoteCount": 91,
+            "indexedAt": "2025-01-24T16:56:06.748Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:t6ubj2wlhc34awzcymh3qpur/app.bsky.feed.post/3lgjgvvnw322t",
+            "cid": "bafyreick5wp4hstfaqlapinbbyf4un6hwgt343ksziqeu2ypro3mlwto7m",
+            "author": {
+                "did": "did:plc:t6ubj2wlhc34awzcymh3qpur",
+                "handle": "ronfilipkowski.bsky.social",
+                "displayName": "Ron Filipkowski",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:t6ubj2wlhc34awzcymh3qpur/bafkreifqp5wczyswtq4g45yi73ivgtlhctw2jj3ghjfsve53k4tvli62cy@jpeg",
+                "labels": [],
+                "createdAt": "2024-11-11T14:12:30.479Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T22:26:27.791Z",
+                "embed": {
+                    "$type": "app.bsky.embed.images",
+                    "images": [
+                        {
+                            "alt": "",
+                            "aspectRatio": {
+                                "height": 912,
+                                "width": 1290
+                            },
+                            "image": {
+                                "$type": "blob",
+                                "ref": {
+                                    "$link": "bafkreia44alvr2jl4kww2z5fxgc55cnvuh7zvyxje5pajxybqng7al3pki"
+                                },
+                                "mimeType": "image/jpeg",
+                                "size": 341579
+                            }
+                        }
+                    ]
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "If CBS settles this BS case, the money they pay Trump will pale in comparison to the drop in ratings they will experience."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.images#view",
+                "images": [
+                    {
+                        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:t6ubj2wlhc34awzcymh3qpur/bafkreia44alvr2jl4kww2z5fxgc55cnvuh7zvyxje5pajxybqng7al3pki@jpeg",
+                        "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:t6ubj2wlhc34awzcymh3qpur/bafkreia44alvr2jl4kww2z5fxgc55cnvuh7zvyxje5pajxybqng7al3pki@jpeg",
+                        "alt": "",
+                        "aspectRatio": {
+                            "height": 912,
+                            "width": 1290
+                        }
+                    }
+                ]
+            },
+            "replyCount": 832,
+            "repostCount": 4328,
+            "likeCount": 19412,
+            "quoteCount": 225,
+            "indexedAt": "2025-01-24T22:26:30.951Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:6wthaiuqiys3y7eztkpsdam2/app.bsky.feed.post/3lgipv4hxyc27",
+            "cid": "bafyreidzqzi3y4udpjemo6y773mqmhk2xjw3lnki57eywgyuwy73rvzzyu",
+            "author": {
+                "did": "did:plc:6wthaiuqiys3y7eztkpsdam2",
+                "handle": "lepapillonblue.bsky.social",
+                "displayName": "\ud835\udc40\ud835\udcb6\ud835\udcce\ud835\udcc7\ud835\udcb6\u00b0\u2740\u22c6.\u0cc3\u0fd4*:\uff65\ud83e\udee7\ud83e\udd8b",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6wthaiuqiys3y7eztkpsdam2/bafkreicrvcb3rhcc44lceh2mqintz2fhi3pkrv7smqffxbz4njr2npu7em@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "none"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2023-08-06T02:17:47.195Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T15:34:25.325Z",
+                "embed": {
+                    "$type": "app.bsky.embed.images",
+                    "images": [
+                        {
+                            "alt": "",
+                            "aspectRatio": {
+                                "height": 973,
+                                "width": 914
+                            },
+                            "image": {
+                                "$type": "blob",
+                                "ref": {
+                                    "$link": "bafkreiaw5dtzqatbsvw2tow45ytf37mobxgiu4kuc6qm4g2okyfdqg2aji"
+                                },
+                                "mimeType": "image/jpeg",
+                                "size": 569586
+                            }
+                        }
+                    ]
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "A quick reminder that Donald Trump is still a convicted felon."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.images#view",
+                "images": [
+                    {
+                        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:6wthaiuqiys3y7eztkpsdam2/bafkreiaw5dtzqatbsvw2tow45ytf37mobxgiu4kuc6qm4g2okyfdqg2aji@jpeg",
+                        "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:6wthaiuqiys3y7eztkpsdam2/bafkreiaw5dtzqatbsvw2tow45ytf37mobxgiu4kuc6qm4g2okyfdqg2aji@jpeg",
+                        "alt": "",
+                        "aspectRatio": {
+                            "height": 973,
+                            "width": 914
+                        }
+                    }
+                ]
+            },
+            "replyCount": 50,
+            "repostCount": 652,
+            "likeCount": 2060,
+            "quoteCount": 26,
+            "indexedAt": "2025-01-24T15:34:30.756Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:eezrj7dplg2goacopghccdgq/app.bsky.feed.post/3lgiw3hhnek2o",
+            "cid": "bafyreidjz4lrzcovecqkzap4odtvbqpnszpoh5u7xe5x6ho2acjp3hu4jq",
+            "author": {
+                "did": "did:plc:eezrj7dplg2goacopghccdgq",
+                "handle": "out5p0ken.bsky.social",
+                "displayName": "Outspoken\u2122\ufe0f",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:eezrj7dplg2goacopghccdgq/bafkreiailqhk7c5wfie75yc3e5wmxi4h2cldglqwzw6cja7rrn42iesn6q@jpeg",
+                "labels": [],
+                "createdAt": "2023-07-10T12:26:38.987Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T17:25:20.626Z",
+                "langs": [
+                    "en"
+                ],
+                "text": "John Bolton\u2019s Secret Service protection is revoked \u2014 wish he\u2019d found his voice against Trump during Trump impeachment v1."
+            },
+            "replyCount": 44,
+            "repostCount": 86,
+            "likeCount": 707,
+            "quoteCount": 3,
+            "indexedAt": "2025-01-24T17:25:20.757Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:xasgvuxrvki55hqatafseon7/app.bsky.feed.post/3lgjfjewo5k2r",
+            "cid": "bafyreibreuvaz7tafw5cp2vblmqpegjbks22ktfn6ruacrrsuumq5hr6ue",
+            "author": {
+                "did": "did:plc:xasgvuxrvki55hqatafseon7",
+                "handle": "reecedinsdale.bsky.social",
+                "displayName": "Reece Dinsdale",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xasgvuxrvki55hqatafseon7/bafkreibfxjzq4qdwhln6tj5hgz5g3uaemmak67scbzuz7vrhk27b4ce22e@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "none"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2024-08-13T15:48:23.150Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T22:01:33.862Z",
+                "embed": {
+                    "$type": "app.bsky.embed.external",
+                    "external": {
+                        "description": "The former top US health official has faced death threats since leading  the country's COVID-19 response.",
+                        "thumb": {
+                            "$type": "blob",
+                            "ref": {
+                                "$link": "bafkreigw5sk424dhuvmdktte6dt4w3wbs46iqliaks7mhajemin5kti3nq"
+                            },
+                            "mimeType": "image/jpeg",
+                            "size": 252722
+                        },
+                        "title": "Trump revokes Covid adviser Anthony Fauci's security protection",
+                        "uri": "https://www.bbc.com/news/articles/cvg49jz7v8no"
+                    }
+                },
+                "facets": [
+                    {
+                        "features": [
+                            {
+                                "$type": "app.bsky.richtext.facet#link",
+                                "uri": "https://www.bbc.com/news/articles/cvg49jz7v8no"
+                            }
+                        ],
+                        "index": {
+                            "byteEnd": 115,
+                            "byteStart": 88
+                        }
+                    }
+                ],
+                "langs": [
+                    "en"
+                ],
+                "text": "Trump.\nThe petty President. \n\nTrump revokes security protection for Covid adviser Fauci www.bbc.com/news/article..."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.external#view",
+                "external": {
+                    "uri": "https://www.bbc.com/news/articles/cvg49jz7v8no",
+                    "title": "Trump revokes Covid adviser Anthony Fauci's security protection",
+                    "description": "The former top US health official has faced death threats since leading  the country's COVID-19 response.",
+                    "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:xasgvuxrvki55hqatafseon7/bafkreigw5sk424dhuvmdktte6dt4w3wbs46iqliaks7mhajemin5kti3nq@jpeg"
+                }
+            },
+            "replyCount": 52,
+            "repostCount": 66,
+            "likeCount": 461,
+            "quoteCount": 4,
+            "indexedAt": "2025-01-24T22:01:37.647Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:siffxwdwvrfmfkgu5rq3jnqs/app.bsky.feed.post/3lggzq3hdpc2w",
+            "cid": "bafyreibc7vbgh4vsutrwjykcq2z75sledexbcr6rq7ek4sw447ajpnocgq",
+            "author": {
+                "did": "did:plc:siffxwdwvrfmfkgu5rq3jnqs",
+                "handle": "codyjohnston.bsky.social",
+                "displayName": "Cody",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:siffxwdwvrfmfkgu5rq3jnqs/bafkreicwyzylywesfdg45yplreifyits3via3vnw7wuy4c5v6af5xxyrma@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "all"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2023-05-02T21:04:23.148Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-23T23:25:14.425Z",
+                "langs": [
+                    "en"
+                ],
+                "text": "Trump voter on day 3 of his administration googling \"wait a second, is donald trump bad somehow?\""
+            },
+            "replyCount": 36,
+            "repostCount": 77,
+            "likeCount": 1103,
+            "quoteCount": 3,
+            "indexedAt": "2025-01-23T23:25:13.553Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:gkgmduxh722ocstroyi75gbg/app.bsky.feed.post/3lgg3nqrjsc2t",
+            "cid": "bafyreiadyiud4sshunye3sgraaivd7rdzokiinydkzp4hz7hy3kpo7lyte",
+            "author": {
+                "did": "did:plc:gkgmduxh722ocstroyi75gbg",
+                "handle": "mjfree.bsky.social",
+                "displayName": "Morgan J Freeman",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gkgmduxh722ocstroyi75gbg/bafkreifbzf5kuau7gomna24zifgthxvsgjyvikvpv4chktct5qcgbtdjsy@jpeg",
+                "labels": [],
+                "createdAt": "2024-11-09T03:00:34.077Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-23T14:27:03.861Z",
+                "embed": {
+                    "$type": "app.bsky.embed.video",
+                    "aspectRatio": {
+                        "height": 720,
+                        "width": 1280
+                    },
+                    "video": {
+                        "$type": "blob",
+                        "ref": {
+                            "$link": "bafkreicggiijd2kw5czpwv3xpdfcq7rwzkd5ofi735nma4xm663qvuakyy"
+                        },
+                        "mimeType": "video/mp4",
+                        "size": 11996206
+                    }
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "I'm going to post this video every day so we never forget INSURRECTIONIST TRUMP!"
+            },
+            "embed": {
+                "$type": "app.bsky.embed.video#view",
+                "cid": "bafkreicggiijd2kw5czpwv3xpdfcq7rwzkd5ofi735nma4xm663qvuakyy",
+                "playlist": "https://video.bsky.app/watch/did%3Aplc%3Agkgmduxh722ocstroyi75gbg/bafkreicggiijd2kw5czpwv3xpdfcq7rwzkd5ofi735nma4xm663qvuakyy/playlist.m3u8",
+                "thumbnail": "https://video.bsky.app/watch/did%3Aplc%3Agkgmduxh722ocstroyi75gbg/bafkreicggiijd2kw5czpwv3xpdfcq7rwzkd5ofi735nma4xm663qvuakyy/thumbnail.jpg",
+                "aspectRatio": {
+                    "height": 720,
+                    "width": 1280
+                }
+            },
+            "replyCount": 280,
+            "repostCount": 4006,
+            "likeCount": 11678,
+            "quoteCount": 217,
+            "indexedAt": "2025-01-23T14:27:04.056Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:mxc7liuon6iq5gzapmmwkq22/app.bsky.feed.post/3lge67izcqk24",
+            "cid": "bafyreigp6vxrhsav5puvmfcpdmy4dn6zyt6g4ofypkroekhenrpovbhxje",
+            "author": {
+                "did": "did:plc:mxc7liuon6iq5gzapmmwkq22",
+                "handle": "youranoncentral.bsky.social",
+                "displayName": "Anonymous",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mxc7liuon6iq5gzapmmwkq22/bafkreihszmnlo56ut56gmb54wf5z2ix5mpwrx55ivt4em4xqxjxzecrzna@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "all"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2023-06-27T08:27:07.393Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-22T20:07:27.711Z",
+                "embed": {
+                    "$type": "app.bsky.embed.images",
+                    "images": [
+                        {
+                            "alt": "Trump Nazi regime",
+                            "aspectRatio": {
+                                "height": 549,
+                                "width": 679
+                            },
+                            "image": {
+                                "$type": "blob",
+                                "ref": {
+                                    "$link": "bafkreibdx7flhpkqapojisv26bpz2jnzbkxxwo34nhnxvqztdvw7hr37da"
+                                },
+                                "mimeType": "image/jpeg",
+                                "size": 267289
+                            }
+                        }
+                    ]
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": ""
+            },
+            "embed": {
+                "$type": "app.bsky.embed.images#view",
+                "images": [
+                    {
+                        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:mxc7liuon6iq5gzapmmwkq22/bafkreibdx7flhpkqapojisv26bpz2jnzbkxxwo34nhnxvqztdvw7hr37da@jpeg",
+                        "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:mxc7liuon6iq5gzapmmwkq22/bafkreibdx7flhpkqapojisv26bpz2jnzbkxxwo34nhnxvqztdvw7hr37da@jpeg",
+                        "alt": "Trump Nazi regime",
+                        "aspectRatio": {
+                            "height": 549,
+                            "width": 679
+                        }
+                    }
+                ]
+            },
+            "replyCount": 49,
+            "repostCount": 639,
+            "likeCount": 2458,
+            "quoteCount": 16,
+            "indexedAt": "2025-01-22T20:07:30.161Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:vocg5apjrlm7dfptvy6qbrfy/app.bsky.feed.post/3lgiy2uiouc22",
+            "cid": "bafyreigag6p6cpk2u3wpo6xnsbb6uplm57ip255dnn7hcudy4b5l4ytjni",
+            "author": {
+                "did": "did:plc:vocg5apjrlm7dfptvy6qbrfy",
+                "handle": "briantylercohen.bsky.social",
+                "displayName": "Brian Tyler Cohen",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vocg5apjrlm7dfptvy6qbrfy/bafkreic7awikqepwolxd2z3ezt672ltf3hbfsmhxqldd2lmbu34723auxq@jpeg",
+                "labels": [],
+                "createdAt": "2023-04-27T16:23:26.139Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T18:00:48.212Z",
+                "embed": {
+                    "$type": "app.bsky.embed.images",
+                    "images": [
+                        {
+                            "alt": "",
+                            "aspectRatio": {
+                                "height": 1236,
+                                "width": 1236
+                            },
+                            "image": {
+                                "$type": "blob",
+                                "ref": {
+                                    "$link": "bafkreibvjwco2jormx3d453ggtttk3ywsk4d2bliym5nerdguwgqjw2qcu"
+                                },
+                                "mimeType": "image/jpeg",
+                                "size": 296396
+                            }
+                        }
+                    ]
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "Trump is so blinded by hatred for California that he\u2019s considering eliminating an agency that overwhelmingly helps red states."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.images#view",
+                "images": [
+                    {
+                        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:vocg5apjrlm7dfptvy6qbrfy/bafkreibvjwco2jormx3d453ggtttk3ywsk4d2bliym5nerdguwgqjw2qcu@jpeg",
+                        "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:vocg5apjrlm7dfptvy6qbrfy/bafkreibvjwco2jormx3d453ggtttk3ywsk4d2bliym5nerdguwgqjw2qcu@jpeg",
+                        "alt": "",
+                        "aspectRatio": {
+                            "height": 1236,
+                            "width": 1236
+                        }
+                    }
+                ]
+            },
+            "replyCount": 658,
+            "repostCount": 1988,
+            "likeCount": 8224,
+            "quoteCount": 144,
+            "indexedAt": "2025-01-24T18:00:50.645Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:4llrhdclvdlmmynkwsmg5tdc/app.bsky.feed.post/3lgeutc7v5r2e",
+            "cid": "bafyreiakb673vsadtoxcbartsq6unj6nq5cldhdhrjs4snz6npzku5i3ka",
+            "author": {
+                "did": "did:plc:4llrhdclvdlmmynkwsmg5tdc",
+                "handle": "atrupar.com",
+                "displayName": "Aaron Rupar",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4llrhdclvdlmmynkwsmg5tdc/bafkreibmhm3h6ar52pogvolisrzjdhwa2myras5vkxzj67twxn2l6pogwu@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "following"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2023-04-28T00:47:57.437Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-23T02:52:13.953Z",
+                "embed": {
+                    "$type": "app.bsky.embed.video",
+                    "alt": "",
+                    "aspectRatio": {
+                        "height": 1080,
+                        "width": 1920
+                    },
+                    "captions": [
+                        {
+                            "$type": "app.bsky.embed.video#caption",
+                            "file": {
+                                "$type": "blob",
+                                "ref": {
+                                    "$link": "bafkreicxbuwjecaetoyr5rgffdjngbajao52zlo4ejt7usv3erj7uy6ufa"
+                                },
+                                "mimeType": "text/vtt",
+                                "size": 712
+                            },
+                            "lang": "en"
+                        }
+                    ],
+                    "video": {
+                        "$type": "blob",
+                        "ref": {
+                            "$link": "bafkreidqsko5c4dusr5kfu3lymxb5egoazbi3eoa77x6iip66siemhstg4"
+                        },
+                        "mimeType": "video/mp4",
+                        "size": 7574331
+                    }
+                },
+                "facets": [],
+                "langs": [
+                    "en"
+                ],
+                "text": "Hannity as Trump rants about Biden not pardoning himself: \"Let me get to the economy.\"\n\nTrump: \"I don't care.\""
+            },
+            "embed": {
+                "$type": "app.bsky.embed.video#view",
+                "cid": "bafkreidqsko5c4dusr5kfu3lymxb5egoazbi3eoa77x6iip66siemhstg4",
+                "playlist": "https://video.bsky.app/watch/did%3Aplc%3A4llrhdclvdlmmynkwsmg5tdc/bafkreidqsko5c4dusr5kfu3lymxb5egoazbi3eoa77x6iip66siemhstg4/playlist.m3u8",
+                "thumbnail": "https://video.bsky.app/watch/did%3Aplc%3A4llrhdclvdlmmynkwsmg5tdc/bafkreidqsko5c4dusr5kfu3lymxb5egoazbi3eoa77x6iip66siemhstg4/thumbnail.jpg",
+                "alt": "",
+                "aspectRatio": {
+                    "height": 1080,
+                    "width": 1920
+                }
+            },
+            "replyCount": 346,
+            "repostCount": 848,
+            "likeCount": 3653,
+            "quoteCount": 154,
+            "indexedAt": "2025-01-23T02:52:15.057Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:wghcbfcrp3uigvu7rl2yukqt/app.bsky.feed.post/3lgguultenc2p",
+            "cid": "bafyreia4lel23uc5b4tz2lbdsjm2zh7ivujsewy5gqjqefim2dnfvg5tvq",
+            "author": {
+                "did": "did:plc:wghcbfcrp3uigvu7rl2yukqt",
+                "handle": "amysiskind.bsky.social",
+                "displayName": "Amy Siskind",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:wghcbfcrp3uigvu7rl2yukqt/bafkreiggwplougxurjrfalpnag7mtjuhbuftxbohuus2lkaxru66sbldnu@jpeg",
+                "labels": [],
+                "createdAt": "2024-11-15T13:30:31.434Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-23T21:58:17.096Z",
+                "embed": {
+                    "$type": "app.bsky.embed.images",
+                    "images": [
+                        {
+                            "alt": "",
+                            "aspectRatio": {
+                                "height": 1998,
+                                "width": 1179
+                            },
+                            "image": {
+                                "$type": "blob",
+                                "ref": {
+                                    "$link": "bafkreibajdjwropioad7xkw7w2yfn65vowovy3ioechw4x5hjhc5stnrjq"
+                                },
+                                "mimeType": "image/jpeg",
+                                "size": 945085
+                            }
+                        }
+                    ]
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "EARLY PUSHBACK TO TRUMP!"
+            },
+            "embed": {
+                "$type": "app.bsky.embed.images#view",
+                "images": [
+                    {
+                        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:wghcbfcrp3uigvu7rl2yukqt/bafkreibajdjwropioad7xkw7w2yfn65vowovy3ioechw4x5hjhc5stnrjq@jpeg",
+                        "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:wghcbfcrp3uigvu7rl2yukqt/bafkreibajdjwropioad7xkw7w2yfn65vowovy3ioechw4x5hjhc5stnrjq@jpeg",
+                        "alt": "",
+                        "aspectRatio": {
+                            "height": 1998,
+                            "width": 1179
+                        }
+                    }
+                ]
+            },
+            "replyCount": 25,
+            "repostCount": 200,
+            "likeCount": 737,
+            "quoteCount": 12,
+            "indexedAt": "2025-01-23T21:58:24.359Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:gkgmduxh722ocstroyi75gbg/app.bsky.feed.post/3lgiughyp622o",
+            "cid": "bafyreidswspxhh7ry3lb6aya3kqx6ztvgfni44dkty5o7jksphqxdqnx5y",
+            "author": {
+                "did": "did:plc:gkgmduxh722ocstroyi75gbg",
+                "handle": "mjfree.bsky.social",
+                "displayName": "Morgan J Freeman",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gkgmduxh722ocstroyi75gbg/bafkreifbzf5kuau7gomna24zifgthxvsgjyvikvpv4chktct5qcgbtdjsy@jpeg",
+                "labels": [],
+                "createdAt": "2024-11-09T03:00:34.077Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T16:55:42.801Z",
+                "langs": [
+                    "en"
+                ],
+                "text": "Should Trump be impeached this week or next?"
+            },
+            "replyCount": 220,
+            "repostCount": 80,
+            "likeCount": 856,
+            "quoteCount": 16,
+            "indexedAt": "2025-01-24T16:55:42.959Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:flfa7b6kgjqp3bbh223tmpjk/app.bsky.feed.post/3lgf6rs52k223",
+            "cid": "bafyreihhrcfwz53fdcilh6som5646fcjda4s7kfu77dsapdcolyfg3mqpu",
+            "author": {
+                "did": "did:plc:flfa7b6kgjqp3bbh223tmpjk",
+                "handle": "wajali.bsky.social",
+                "displayName": "Wajahat Ali",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:flfa7b6kgjqp3bbh223tmpjk/bafkreie426yhuimig3tmxsl7pd4casn6rzbsgvrlwsgul4b5smfncmqvea@jpeg",
+                "labels": [],
+                "createdAt": "2023-07-06T02:22:04.616Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-23T05:50:20.993Z",
+                "langs": [
+                    "en"
+                ],
+                "text": "A radicalized Trump voter was the one who tried to assassinate him. Radicalized Trump voters attacked the Capitol. A radicalized Trump voter blew up his Cybertruck in front of a Trump hotel. The GOP is playing with fire. They created this monster and they think they can tame it.\n\nGood luck."
+            },
+            "replyCount": 146,
+            "repostCount": 831,
+            "likeCount": 4259,
+            "quoteCount": 40,
+            "indexedAt": "2025-01-23T05:50:21.249Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:jtzkvyvqebayuxsk6f5snttx/app.bsky.feed.post/3lghe46jmsc2k",
+            "cid": "bafyreid44ljhrex7fqr5p6a3o2khiwvc37n7gwhfewh7lbc7olp5ke2hnm",
+            "author": {
+                "did": "did:plc:jtzkvyvqebayuxsk6f5snttx",
+                "handle": "lawrenceodonnell.msnbc.com",
+                "displayName": "Lawrence O'Donnell",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jtzkvyvqebayuxsk6f5snttx/bafkreihd2kgyzvxqf2pzip2dkxjchzyh3qi6aufwbvlg5vap7b7nf7idey@jpeg",
+                "labels": [],
+                "createdAt": "2025-01-21T18:56:15.443Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T02:30:57.713Z",
+                "embed": {
+                    "$type": "app.bsky.embed.record",
+                    "record": {
+                        "cid": "bafyreidnrxd5eoa6wlrz52u25t2dl7rpqvzdtd7qmra4fcaxdj7kxpcqhq",
+                        "uri": "at://did:plc:4xib3uedihculokzs43x2l6c/app.bsky.feed.post/3lgh7k3z5oc24"
+                    }
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "Another Judge stops Trump"
+            },
+            "embed": {
+                "$type": "app.bsky.embed.record#view",
+                "record": {
+                    "$type": "app.bsky.embed.record#viewRecord",
+                    "uri": "at://did:plc:4xib3uedihculokzs43x2l6c/app.bsky.feed.post/3lgh7k3z5oc24",
+                    "cid": "bafyreidnrxd5eoa6wlrz52u25t2dl7rpqvzdtd7qmra4fcaxdj7kxpcqhq",
+                    "author": {
+                        "did": "did:plc:4xib3uedihculokzs43x2l6c",
+                        "handle": "lastword.msnbc.com",
+                        "displayName": "The Last Word with Lawrence O'Donnell",
+                        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4xib3uedihculokzs43x2l6c/bafkreiaet3zd6fgyjyurgx4kg2thqg2cnwwzle5phqojjudpy3nlmrq3fa@jpeg",
+                        "labels": [],
+                        "createdAt": "2024-11-19T04:23:45.504Z"
+                    },
+                    "value": {
+                        "$type": "app.bsky.feed.post",
+                        "createdAt": "2025-01-24T01:09:16.102Z",
+                        "embed": {
+                            "$type": "app.bsky.embed.images",
+                            "images": [
+                                {
+                                    "alt": "",
+                                    "aspectRatio": {
+                                        "height": 1080,
+                                        "width": 1920
+                                    },
+                                    "image": {
+                                        "$type": "blob",
+                                        "ref": {
+                                            "$link": "bafkreie7impdxl2h7yizw2z4zq3ktrih73ubdgu3bikx6jrg3shdyukrki"
+                                        },
+                                        "mimeType": "image/jpeg",
+                                        "size": 337997
+                                    }
+                                }
+                            ]
+                        },
+                        "facets": [
+                            {
+                                "$type": "app.bsky.richtext.facet",
+                                "features": [
+                                    {
+                                        "$type": "app.bsky.richtext.facet#mention",
+                                        "did": "did:plc:jrqtx2xgknaf4d2cwbv7akld"
+                                    }
+                                ],
+                                "index": {
+                                    "byteEnd": 32,
+                                    "byteStart": 9
+                                }
+                            },
+                            {
+                                "$type": "app.bsky.richtext.facet",
+                                "features": [
+                                    {
+                                        "$type": "app.bsky.richtext.facet#mention",
+                                        "did": "did:plc:jtzkvyvqebayuxsk6f5snttx"
+                                    }
+                                ],
+                                "index": {
+                                    "byteEnd": 66,
+                                    "byteStart": 39
+                                }
+                            },
+                            {
+                                "features": [
+                                    {
+                                        "$type": "app.bsky.richtext.facet#tag",
+                                        "tag": "LastWord"
+                                    }
+                                ],
+                                "index": {
+                                    "byteEnd": 83,
+                                    "byteStart": 74
+                                }
+                            }
+                        ],
+                        "langs": [
+                            "en"
+                        ],
+                        "text": "TONIGHT: @nealkatyal.bsky.social joins @lawrenceodonnell.msnbc.com on The #LastWord at 10pm ET."
+                    },
+                    "labels": [],
+                    "likeCount": 375,
+                    "replyCount": 13,
+                    "repostCount": 30,
+                    "quoteCount": 3,
+                    "indexedAt": "2025-01-24T01:09:19.862Z",
+                    "embeds": [
+                        {
+                            "$type": "app.bsky.embed.images#view",
+                            "images": [
+                                {
+                                    "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:4xib3uedihculokzs43x2l6c/bafkreie7impdxl2h7yizw2z4zq3ktrih73ubdgu3bikx6jrg3shdyukrki@jpeg",
+                                    "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:4xib3uedihculokzs43x2l6c/bafkreie7impdxl2h7yizw2z4zq3ktrih73ubdgu3bikx6jrg3shdyukrki@jpeg",
+                                    "alt": "",
+                                    "aspectRatio": {
+                                        "height": 1080,
+                                        "width": 1920
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "replyCount": 13,
+            "repostCount": 64,
+            "likeCount": 606,
+            "quoteCount": 3,
+            "indexedAt": "2025-01-24T02:30:58.358Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:wnvkqzxg2lrlx6pgnjudlkzk/app.bsky.feed.post/3lgivqx6d2s2i",
+            "cid": "bafyreibnwcqfzickpnfiy676ogm3qf7xmit3hopcdvipioyfc4wuy4p254",
+            "author": {
+                "did": "did:plc:wnvkqzxg2lrlx6pgnjudlkzk",
+                "handle": "my2bits4u.bsky.social",
+                "displayName": "Jake",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:wnvkqzxg2lrlx6pgnjudlkzk/bafkreia4qmc2uofirzaw6hazpap4zi2yrorioctn5bfd5cxbkazi5u4dvu@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "none"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2023-07-06T17:32:58.696Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T17:19:28.000Z",
+                "langs": [
+                    "en"
+                ],
+                "text": "Trump will destroy Fema . Trump hates America, Trump hates Maga.  Trump loves Trump and money ."
+            },
+            "replyCount": 8,
+            "repostCount": 17,
+            "likeCount": 122,
+            "quoteCount": 1,
+            "indexedAt": "2025-01-24T17:19:29.747Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:gkgmduxh722ocstroyi75gbg/app.bsky.feed.post/3lgjhjueq2s2k",
+            "cid": "bafyreihc4ouiejsfcghxksg44hoef24eokonywcvs5zkd5bz5l5spijxdu",
+            "author": {
+                "did": "did:plc:gkgmduxh722ocstroyi75gbg",
+                "handle": "mjfree.bsky.social",
+                "displayName": "Morgan J Freeman",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gkgmduxh722ocstroyi75gbg/bafkreifbzf5kuau7gomna24zifgthxvsgjyvikvpv4chktct5qcgbtdjsy@jpeg",
+                "labels": [],
+                "createdAt": "2024-11-09T03:00:34.077Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T22:37:37.536Z",
+                "langs": [
+                    "en"
+                ],
+                "text": "Trump would pardon Adolf Hitler if he could."
+            },
+            "replyCount": 56,
+            "repostCount": 65,
+            "likeCount": 676,
+            "quoteCount": 6,
+            "indexedAt": "2025-01-24T22:37:37.746Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:6wthaiuqiys3y7eztkpsdam2/app.bsky.feed.post/3lgdkwl7ggs2i",
+            "cid": "bafyreihrngxxqmpewuscojt3abimhpftt5az6z3ibsnd25jjyniqdbc6re",
+            "author": {
+                "did": "did:plc:6wthaiuqiys3y7eztkpsdam2",
+                "handle": "lepapillonblue.bsky.social",
+                "displayName": "\ud835\udc40\ud835\udcb6\ud835\udcce\ud835\udcc7\ud835\udcb6\u00b0\u2740\u22c6.\u0cc3\u0fd4*:\uff65\ud83e\udee7\ud83e\udd8b",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6wthaiuqiys3y7eztkpsdam2/bafkreicrvcb3rhcc44lceh2mqintz2fhi3pkrv7smqffxbz4njr2npu7em@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "none"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2023-08-06T02:17:47.195Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-22T14:22:26.923Z",
+                "embed": {
+                    "$type": "app.bsky.embed.images",
+                    "images": [
+                        {
+                            "alt": "",
+                            "aspectRatio": {
+                                "height": 1016,
+                                "width": 1125
+                            },
+                            "image": {
+                                "$type": "blob",
+                                "ref": {
+                                    "$link": "bafkreicnkdgw7xp6qvm4nj5nh4zqnpcnij6zze7uucj5b225ia2cvewwhe"
+                                },
+                                "mimeType": "image/jpeg",
+                                "size": 301453
+                            }
+                        }
+                    ]
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "Donald Trump is a POS."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.images#view",
+                "images": [
+                    {
+                        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:6wthaiuqiys3y7eztkpsdam2/bafkreicnkdgw7xp6qvm4nj5nh4zqnpcnij6zze7uucj5b225ia2cvewwhe@jpeg",
+                        "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:6wthaiuqiys3y7eztkpsdam2/bafkreicnkdgw7xp6qvm4nj5nh4zqnpcnij6zze7uucj5b225ia2cvewwhe@jpeg",
+                        "alt": "",
+                        "aspectRatio": {
+                            "height": 1016,
+                            "width": 1125
+                        }
+                    }
+                ]
+            },
+            "replyCount": 364,
+            "repostCount": 1908,
+            "likeCount": 5143,
+            "quoteCount": 154,
+            "indexedAt": "2025-01-22T14:22:31.258Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:4k6dakv7cskxttdvfpzadq7e/app.bsky.feed.post/3lggkm2uka22u",
+            "cid": "bafyreigcd45wciilfwrhv3w6iojnbty2kygwaptpayulpzfecxh77v5lne",
+            "author": {
+                "did": "did:plc:4k6dakv7cskxttdvfpzadq7e",
+                "handle": "kenklippenstein.bsky.social",
+                "displayName": "Ken Klippenstein",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4k6dakv7cskxttdvfpzadq7e/bafkreifjsyqrczareetiqhlt3duygpigdx26lstd2hsfive5oaqb6nfqk4@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "following"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2023-04-10T01:27:53.574Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-23T18:54:33.465Z",
+                "embed": {
+                    "$type": "app.bsky.embed.external",
+                    "external": {
+                        "description": "Trump\u2019s attack on DEI triggers resistance, including against Elon Musk",
+                        "thumb": {
+                            "$type": "blob",
+                            "ref": {
+                                "$link": "bafkreiewhpcwljrkclms4vtkus5exg4wisrd5qx6rv5cd3ishf6uixmhbu"
+                            },
+                            "mimeType": "image/jpeg",
+                            "size": 428598
+                        },
+                        "title": "Leakers Declare War on Trump",
+                        "uri": "https://www.kenklippenstein.com/p/leakers-declare-war-on-trump"
+                    }
+                },
+                "facets": [
+                    {
+                        "features": [
+                            {
+                                "$type": "app.bsky.richtext.facet#link",
+                                "uri": "https://www.kenklippenstein.com/p/leakers-declare-war-on-trump"
+                            }
+                        ],
+                        "index": {
+                            "byteEnd": 69,
+                            "byteStart": 30
+                        }
+                    }
+                ],
+                "langs": [
+                    "en"
+                ],
+                "text": "Leakers declare war on Trump:\nwww.kenklippenstein.com/p/leakers-de..."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.external#view",
+                "external": {
+                    "uri": "https://www.kenklippenstein.com/p/leakers-declare-war-on-trump",
+                    "title": "Leakers Declare War on Trump",
+                    "description": "Trump\u2019s attack on DEI triggers resistance, including against Elon Musk",
+                    "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:4k6dakv7cskxttdvfpzadq7e/bafkreiewhpcwljrkclms4vtkus5exg4wisrd5qx6rv5cd3ishf6uixmhbu@jpeg"
+                }
+            },
+            "replyCount": 35,
+            "repostCount": 414,
+            "likeCount": 2291,
+            "quoteCount": 30,
+            "indexedAt": "2025-01-23T18:54:35.352Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:pjiafkey2cokiupsxpswqlk7/app.bsky.feed.post/3lgg4yyx7b22a",
+            "cid": "bafyreiagjjvxhnzye6hlu3ijxdy3gtiqf3lkb7t6x7cgvod73bqruwtzmm",
+            "author": {
+                "did": "did:plc:pjiafkey2cokiupsxpswqlk7",
+                "handle": "marcelias.bsky.social",
+                "displayName": "Marc Elias",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:pjiafkey2cokiupsxpswqlk7/bafkreibda5a7updqoqvq2k4jnklowk5cv2zlljz4zztuzdedfivgnnkwwa@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "following"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2023-05-03T11:53:59.832Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-23T14:51:15.276Z",
+                "embed": {
+                    "$type": "app.bsky.embed.video",
+                    "aspectRatio": {
+                        "height": 240,
+                        "width": 426
+                    },
+                    "video": {
+                        "$type": "blob",
+                        "ref": {
+                            "$link": "bafkreibpoktuefgpy7n42nxhef2uupppvmgdjw5erygavf4jbknh3navoy"
+                        },
+                        "mimeType": "video/mp4",
+                        "size": 3526472
+                    }
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "Just a reminder that in December I warned that Donald Trump would pardon the Jan. 6 defendants and that some of them would form the core of a new pro-Trump militia movement."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.video#view",
+                "cid": "bafkreibpoktuefgpy7n42nxhef2uupppvmgdjw5erygavf4jbknh3navoy",
+                "playlist": "https://video.bsky.app/watch/did%3Aplc%3Apjiafkey2cokiupsxpswqlk7/bafkreibpoktuefgpy7n42nxhef2uupppvmgdjw5erygavf4jbknh3navoy/playlist.m3u8",
+                "thumbnail": "https://video.bsky.app/watch/did%3Aplc%3Apjiafkey2cokiupsxpswqlk7/bafkreibpoktuefgpy7n42nxhef2uupppvmgdjw5erygavf4jbknh3navoy/thumbnail.jpg",
+                "aspectRatio": {
+                    "height": 240,
+                    "width": 426
+                }
+            },
+            "replyCount": 330,
+            "repostCount": 1958,
+            "likeCount": 7494,
+            "quoteCount": 96,
+            "indexedAt": "2025-01-23T14:51:16.849Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:pjiafkey2cokiupsxpswqlk7/app.bsky.feed.post/3lgjifo66hc24",
+            "cid": "bafyreieiwax55niu67eduysefoatodqfmfwhcyu4d6ouhub2g6ym5x54iy",
+            "author": {
+                "did": "did:plc:pjiafkey2cokiupsxpswqlk7",
+                "handle": "marcelias.bsky.social",
+                "displayName": "Marc Elias",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:pjiafkey2cokiupsxpswqlk7/bafkreibda5a7updqoqvq2k4jnklowk5cv2zlljz4zztuzdedfivgnnkwwa@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "following"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2023-05-03T11:53:59.832Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T22:53:10.553Z",
+                "embed": {
+                    "$type": "app.bsky.embed.external",
+                    "external": {
+                        "description": "Read more here.",
+                        "thumb": {
+                            "$type": "blob",
+                            "ref": {
+                                "$link": "bafkreigahbjj4fqsngt7pmqd5fwqsvpugbmzyxu6s3xjr4jq4oq634q3xq"
+                            },
+                            "mimeType": "image/jpeg",
+                            "size": 401671
+                        },
+                        "title": "Trump Demands California Adopt Voter ID Requirement to Get Wildfire Aid",
+                        "uri": "https://www.democracydocket.com/news-alerts/trump-demands-california-adopt-voter-id-requirement-to-get-wildfire-aid/"
+                    }
+                },
+                "facets": [
+                    {
+                        "features": [
+                            {
+                                "$type": "app.bsky.richtext.facet#link",
+                                "uri": "https://www.democracydocket.com/news-alerts/trump-demands-california-adopt-voter-id-requirement-to-get-wildfire-aid/"
+                            }
+                        ],
+                        "index": {
+                            "byteEnd": 299,
+                            "byteStart": 260
+                        }
+                    }
+                ],
+                "langs": [
+                    "en"
+                ],
+                "text": "If you thought Donald Trump could not make politics dumber and more craven, here you go.\ud83d\udc47\n\n\"President Donald Trump said during public remarks Friday that he would withhold aid for the Los Angeles wildfires unless California adopted a voter ID requirement.\" www.democracydocket.com/news-alerts/..."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.external#view",
+                "external": {
+                    "uri": "https://www.democracydocket.com/news-alerts/trump-demands-california-adopt-voter-id-requirement-to-get-wildfire-aid/",
+                    "title": "Trump Demands California Adopt Voter ID Requirement to Get Wildfire Aid",
+                    "description": "Read more here.",
+                    "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:pjiafkey2cokiupsxpswqlk7/bafkreigahbjj4fqsngt7pmqd5fwqsvpugbmzyxu6s3xjr4jq4oq634q3xq@jpeg"
+                }
+            },
+            "replyCount": 755,
+            "repostCount": 1579,
+            "likeCount": 5276,
+            "quoteCount": 199,
+            "indexedAt": "2025-01-24T22:53:12.252Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:7qqkq2zdwq4j5jingukgtuky/app.bsky.feed.post/3lginnhj5ug2f",
+            "cid": "bafyreidfiymtl4ybmxcqrbmafbeueaskujx5m2ihzlvidqpobtnftmeyp4",
+            "author": {
+                "did": "did:plc:7qqkq2zdwq4j5jingukgtuky",
+                "handle": "joncooper-us.bsky.social",
+                "displayName": "Jon Cooper",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7qqkq2zdwq4j5jingukgtuky/bafkreifxcm6iu4wfjapuut3fyrjygvejmk5ldyfb42uie4my6oxitu7v6m@jpeg",
+                "labels": [],
+                "createdAt": "2024-11-09T17:04:06.584Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T14:54:20.980Z",
+                "langs": [
+                    "en"
+                ],
+                "text": "Every fucking MAGA cultist who fucking assured me that Trump had no fucking plans whatsoever to implement fucking Project 2025 can go fuck themselves."
+            },
+            "replyCount": 823,
+            "repostCount": 3529,
+            "likeCount": 18424,
+            "quoteCount": 221,
+            "indexedAt": "2025-01-24T14:54:21.163Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:salokypqtf26a547u2rxpx7a/app.bsky.feed.post/3lgjim6gm6c2c",
+            "cid": "bafyreiet3dk5vg2yu55l5lc6evw4penesstyup677q7ijrie5x2tw65hqu",
+            "author": {
+                "did": "did:plc:salokypqtf26a547u2rxpx7a",
+                "handle": "kslatteryresist.bsky.social",
+                "displayName": "KSlatteryResist",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:salokypqtf26a547u2rxpx7a/bafkreic5ecxlggwv4xxcavnkovxqcgw62qubcur2krrqnhl5innnztumbi@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "following"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2023-10-29T23:59:03.881Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T22:56:48.931Z",
+                "embed": {
+                    "$type": "app.bsky.embed.record",
+                    "record": {
+                        "cid": "bafyreifb6jjkrprq5vtighxyir2ooqgmmwnw2ccpkskaoibujnpjqbxlx4",
+                        "uri": "at://did:plc:z6rujpf4u56jfie7aqic2nfg/app.bsky.feed.post/3lgjg3dn77s2m"
+                    }
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "Mexico to Trump: \ud83d\udd95\ud83d\udd95\ud83d\udd95"
+            },
+            "embed": {
+                "$type": "app.bsky.embed.record#view",
+                "record": {
+                    "$type": "app.bsky.embed.record#viewRecord",
+                    "uri": "at://did:plc:z6rujpf4u56jfie7aqic2nfg/app.bsky.feed.post/3lgjg3dn77s2m",
+                    "cid": "bafyreifb6jjkrprq5vtighxyir2ooqgmmwnw2ccpkskaoibujnpjqbxlx4",
+                    "author": {
+                        "did": "did:plc:z6rujpf4u56jfie7aqic2nfg",
+                        "handle": "carlquintanilla.bsky.social",
+                        "displayName": "Carl Quintanilla",
+                        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z6rujpf4u56jfie7aqic2nfg/bafkreiaxx6cojdlfuqarrnccb66ozmiqlxnm2eoyfujkpptbq3da6tgct4@jpeg",
+                        "labels": [],
+                        "createdAt": "2023-05-13T15:06:52.094Z"
+                    },
+                    "value": {
+                        "$type": "app.bsky.feed.post",
+                        "createdAt": "2025-01-24T22:11:36.476Z",
+                        "embed": {
+                            "$type": "app.bsky.embed.external",
+                            "external": {
+                                "description": "The Mexican government has criticized President Donald Trump's unilateral immigration actions, and the landing would have required Mexico's assistance.",
+                                "thumb": {
+                                    "$type": "blob",
+                                    "ref": {
+                                        "$link": "bafkreifj3kkwvin6dd5jqrci6vttgfegybwferz2rqgrp3ulu7322g72ky"
+                                    },
+                                    "mimeType": "image/jpeg",
+                                    "size": 276268
+                                },
+                                "title": "Mexico refuses to accept a U.S. deportation flight",
+                                "uri": "https://www.nbcnews.com/politics/immigration/mexico-refuses-accept-us-deportation-flight-rcna189182"
+                            }
+                        },
+                        "facets": [
+                            {
+                                "features": [
+                                    {
+                                        "$type": "app.bsky.richtext.facet#link",
+                                        "uri": "https://www.nbcnews.com/politics/immigration/mexico-refuses-accept-us-deportation-flight-rcna189182"
+                                    }
+                                ],
+                                "index": {
+                                    "byteEnd": 296,
+                                    "byteStart": 265
+                                }
+                            }
+                        ],
+                        "langs": [
+                            "en"
+                        ],
+                        "text": "(NBC News) - Mexico denied a U.S. military plane access to land Thursday, at least temporarily frustrating the Trump administration's plans to deport immigrants to the country, according to two U.S defense officials and a third person familiar with the situation.\n\nwww.nbcnews.com/politics/imm..."
+                    },
+                    "labels": [],
+                    "likeCount": 4242,
+                    "replyCount": 285,
+                    "repostCount": 1181,
+                    "quoteCount": 315,
+                    "indexedAt": "2025-01-24T22:11:38.353Z",
+                    "embeds": [
+                        {
+                            "$type": "app.bsky.embed.external#view",
+                            "external": {
+                                "uri": "https://www.nbcnews.com/politics/immigration/mexico-refuses-accept-us-deportation-flight-rcna189182",
+                                "title": "Mexico refuses to accept a U.S. deportation flight",
+                                "description": "The Mexican government has criticized President Donald Trump's unilateral immigration actions, and the landing would have required Mexico's assistance.",
+                                "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:z6rujpf4u56jfie7aqic2nfg/bafkreifj3kkwvin6dd5jqrci6vttgfegybwferz2rqgrp3ulu7322g72ky@jpeg"
+                            }
+                        }
+                    ]
+                }
+            },
+            "replyCount": 23,
+            "repostCount": 123,
+            "likeCount": 392,
+            "quoteCount": 5,
+            "indexedAt": "2025-01-24T22:56:49.445Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:5o6k7jvowuyaquloafzn3cfw/app.bsky.feed.post/3lghjdcflhc24",
+            "cid": "bafyreiggsdvsuqld2qsw4dxxl5t4uaenkpiyj2yzcsexpk3j4anzpyg2pe",
+            "author": {
+                "did": "did:plc:5o6k7jvowuyaquloafzn3cfw",
+                "handle": "thetnholler.bsky.social",
+                "displayName": "The Tennessee Holler ",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5o6k7jvowuyaquloafzn3cfw/bafkreierrwtdsf5quwprs2xqmmh2lu2k7au2cibyegfpard6wqyjs7nd6i@jpeg",
+                "labels": [],
+                "createdAt": "2023-05-16T02:37:39.269Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T04:04:25.367Z",
+                "embed": {
+                    "$type": "app.bsky.embed.images",
+                    "images": [
+                        {
+                            "alt": "",
+                            "aspectRatio": {
+                                "height": 2000,
+                                "width": 2000
+                            },
+                            "image": {
+                                "$type": "blob",
+                                "ref": {
+                                    "$link": "bafkreibay6kenew7gdq2bvjuwddztgtixjvnoetfpnxbs3p6dkh36vgfy4"
+                                },
+                                "mimeType": "image/jpeg",
+                                "size": 978725
+                            }
+                        }
+                    ]
+                },
+                "facets": [
+                    {
+                        "$type": "app.bsky.richtext.facet",
+                        "features": [
+                            {
+                                "$type": "app.bsky.richtext.facet#mention",
+                                "did": "did:plc:usbulziv4ck5omo2bf32hpc4"
+                            }
+                        ],
+                        "index": {
+                            "byteEnd": 89,
+                            "byteStart": 67
+                        }
+                    },
+                    {
+                        "$type": "app.bsky.richtext.facet",
+                        "features": [
+                            {
+                                "$type": "app.bsky.richtext.facet#mention",
+                                "did": "did:plc:dzezcmpb3fhcpns4n4xm4ur5"
+                            }
+                        ],
+                        "index": {
+                            "byteEnd": 184,
+                            "byteStart": 176
+                        }
+                    }
+                ],
+                "langs": [
+                    "en"
+                ],
+                "text": "CNN is getting roasted for seemingly burying frequent Trump critic @jimacosta.bsky.social  \u2014 who put Burchett in his place again this week over the Trump pardons \n\nShameful, @cnn.com"
+            },
+            "embed": {
+                "$type": "app.bsky.embed.images#view",
+                "images": [
+                    {
+                        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5o6k7jvowuyaquloafzn3cfw/bafkreibay6kenew7gdq2bvjuwddztgtixjvnoetfpnxbs3p6dkh36vgfy4@jpeg",
+                        "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:5o6k7jvowuyaquloafzn3cfw/bafkreibay6kenew7gdq2bvjuwddztgtixjvnoetfpnxbs3p6dkh36vgfy4@jpeg",
+                        "alt": "",
+                        "aspectRatio": {
+                            "height": 2000,
+                            "width": 2000
+                        }
+                    }
+                ]
+            },
+            "replyCount": 60,
+            "repostCount": 316,
+            "likeCount": 1578,
+            "quoteCount": 13,
+            "indexedAt": "2025-01-24T04:04:28.452Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:h242zdgfvp5cvngvvtj7qhlh/app.bsky.feed.post/3lgiti5yjz22m",
+            "cid": "bafyreigzldoex4rapjprnxnzirsmqbi67jplrwfek44ojuc4rejyseauxq",
+            "author": {
+                "did": "did:plc:h242zdgfvp5cvngvvtj7qhlh",
+                "handle": "ninaturner.bsky.social",
+                "displayName": "Nina Turner",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:h242zdgfvp5cvngvvtj7qhlh/bafkreibkxfrkohscbsxasppelfobawattjp7u67v32f6jwqedbmovuc6ia@jpeg",
+                "labels": [],
+                "createdAt": "2023-04-28T01:32:25.769Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T16:38:45.671Z",
+                "langs": [
+                    "en"
+                ],
+                "text": "President Trump should declassify the Epstein documents, too."
+            },
+            "replyCount": 19,
+            "repostCount": 89,
+            "likeCount": 669,
+            "quoteCount": 11,
+            "indexedAt": "2025-01-24T16:38:45.951Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:7prh6raya2ntwnpyzte5u5hc/app.bsky.feed.post/3lggjkw4o4s23",
+            "cid": "bafyreidxxikdxpavo6brkv7p5ppal7rzwnyeluje3hqo2dfqy2jb2mlyyi",
+            "author": {
+                "did": "did:plc:7prh6raya2ntwnpyzte5u5hc",
+                "handle": "juddlegum.bsky.social",
+                "displayName": "Judd Legum",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7prh6raya2ntwnpyzte5u5hc/bafkreid5w4dsel7xbthccosm77u5d4k57woq4tvzzvrhnovqz7rhwgppye@jpeg",
+                "labels": [],
+                "createdAt": "2023-04-27T23:30:21.350Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-23T18:36:01.191Z",
+                "embed": {
+                    "$type": "app.bsky.embed.external",
+                    "external": {
+                        "description": "The bird flu crisis is ravaging the nation's egg supply and presents an immediate challenge for the Trump administration.",
+                        "thumb": {
+                            "$type": "blob",
+                            "ref": {
+                                "$link": "bafkreibbachwqnhjhbxx4s3lup6baoqzxl6plxombredwtblxmmphqtqyi"
+                            },
+                            "mimeType": "image/jpeg",
+                            "size": 275590
+                        },
+                        "title": "Egg prices 2025: Growing bird flu outbreak causing shortages, higher prices",
+                        "uri": "https://www.axios.com/2025/01/21/bird-flu-egg-prices-avian-influenza-trump"
+                    }
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "Egg prices spiking under Trump"
+            },
+            "embed": {
+                "$type": "app.bsky.embed.external#view",
+                "external": {
+                    "uri": "https://www.axios.com/2025/01/21/bird-flu-egg-prices-avian-influenza-trump",
+                    "title": "Egg prices 2025: Growing bird flu outbreak causing shortages, higher prices",
+                    "description": "The bird flu crisis is ravaging the nation's egg supply and presents an immediate challenge for the Trump administration.",
+                    "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:7prh6raya2ntwnpyzte5u5hc/bafkreibbachwqnhjhbxx4s3lup6baoqzxl6plxombredwtblxmmphqtqyi@jpeg"
+                }
+            },
+            "replyCount": 72,
+            "repostCount": 176,
+            "likeCount": 798,
+            "quoteCount": 17,
+            "indexedAt": "2025-01-23T18:36:02.858Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:7prh6raya2ntwnpyzte5u5hc/app.bsky.feed.post/3lgizyz4kjc2p",
+            "cid": "bafyreifct7l3oezoxkgbnsnhbchqeijdyif4qbwffueficdyebvtegynga",
+            "author": {
+                "did": "did:plc:7prh6raya2ntwnpyzte5u5hc",
+                "handle": "juddlegum.bsky.social",
+                "displayName": "Judd Legum",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7prh6raya2ntwnpyzte5u5hc/bafkreid5w4dsel7xbthccosm77u5d4k57woq4tvzzvrhnovqz7rhwgppye@jpeg",
+                "labels": [],
+                "createdAt": "2023-04-27T23:30:21.350Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T18:35:33.442Z",
+                "langs": [
+                    "en"
+                ],
+                "text": "One of the driving principles of the second Trump administration is affirmative action for mediocre white men"
+            },
+            "replyCount": 128,
+            "repostCount": 694,
+            "likeCount": 3568,
+            "quoteCount": 54,
+            "indexedAt": "2025-01-24T18:35:33.655Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:bbp2b224lro3bfnzcqwwnkfo/app.bsky.feed.post/3lgj6qvlhpc2v",
+            "cid": "bafyreiat42hozpkzwmbghhiieqmchpr2iprkny52fyhcspiumqnzwsz7zy",
+            "author": {
+                "did": "did:plc:bbp2b224lro3bfnzcqwwnkfo",
+                "handle": "emptywheel.bsky.social",
+                "displayName": "emptywheel",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bbp2b224lro3bfnzcqwwnkfo/bafkreib6pgjigju2ueiuyzgyavwvxm7ottneushsvabzi46lzs6aff5gyu@jpeg",
+                "associated": {
+                    "chat": {
+                        "allowIncoming": "following"
+                    }
+                },
+                "labels": [],
+                "createdAt": "2023-05-09T20:00:47.476Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-24T20:00:30.009Z",
+                "embed": {
+                    "$type": "app.bsky.embed.record",
+                    "record": {
+                        "cid": "bafyreidelkir7cutv7r4mkfmropxgchinycks4ih7zn3sxhcsbt7453rei",
+                        "uri": "at://did:plc:l7dn34bre6lgyu3q4vkomw32/app.bsky.feed.post/3lgj6nqa7jk2k"
+                    }
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "Trump just cut off Taiwan and Ukraine.\n\nBut not Egypt, which may have sent Trump $10M in 2017 and has a history of bribing others. \n\n\ud83d\ude2c"
+            },
+            "embed": {
+                "$type": "app.bsky.embed.record#view",
+                "record": {
+                    "$type": "app.bsky.embed.record#viewRecord",
+                    "uri": "at://did:plc:l7dn34bre6lgyu3q4vkomw32/app.bsky.feed.post/3lgj6nqa7jk2k",
+                    "cid": "bafyreidelkir7cutv7r4mkfmropxgchinycks4ih7zn3sxhcsbt7453rei",
+                    "author": {
+                        "did": "did:plc:l7dn34bre6lgyu3q4vkomw32",
+                        "handle": "kwcollins.bsky.social",
+                        "displayName": "Kevin Collins",
+                        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:l7dn34bre6lgyu3q4vkomw32/bafkreifs64dg7bufjogovjys3vpmkltsg6ksjt3ryxmvnlgffjlykjdlmi@jpeg",
+                        "associated": {
+                            "chat": {
+                                "allowIncoming": "all"
+                            }
+                        },
+                        "labels": [
+                            {
+                                "src": "did:plc:l7dn34bre6lgyu3q4vkomw32",
+                                "uri": "at://did:plc:l7dn34bre6lgyu3q4vkomw32/app.bsky.actor.profile/self",
+                                "cid": "bafyreiaxvlmo5thqvzbbmevnvpsfv23draxlimxw32iv4kdzkqtteqioae",
+                                "val": "!no-unauthenticated",
+                                "cts": "1970-01-01T00:00:00.000Z"
+                            }
+                        ],
+                        "createdAt": "2023-04-27T15:00:21.641Z"
+                    },
+                    "value": {
+                        "$type": "app.bsky.feed.post",
+                        "createdAt": "2025-01-24T19:58:43.735Z",
+                        "embed": {
+                            "$type": "app.bsky.embed.external",
+                            "external": {
+                                "description": "The \u201cstop-work orders\u201d appear to apply to US aid for all countries except Israel and Egypt.",
+                                "thumb": {
+                                    "$type": "blob",
+                                    "ref": {
+                                        "$link": "bafkreieu6ssevaomcdvg4i5ethtozdtgpj3owb2o3mcolipuwbqpszgpna"
+                                    },
+                                    "mimeType": "image/jpeg",
+                                    "size": 668575
+                                },
+                                "title": "State Department issues immediate, widespread pause on foreign aid",
+                                "uri": "https://www.politico.com/news/2025/01/24/state-department-foreign-aid-pause-00200510"
+                            }
+                        },
+                        "facets": [
+                            {
+                                "features": [
+                                    {
+                                        "$type": "app.bsky.richtext.facet#link",
+                                        "uri": "https://www.politico.com/news/2025/01/24/state-department-foreign-aid-pause-00200510"
+                                    }
+                                ],
+                                "index": {
+                                    "byteEnd": 51,
+                                    "byteStart": 19
+                                }
+                            }
+                        ],
+                        "langs": [
+                            "en"
+                        ],
+                        "text": "Folks, this is bad www.politico.com/news/2025/01..."
+                    },
+                    "labels": [],
+                    "likeCount": 288,
+                    "replyCount": 46,
+                    "repostCount": 131,
+                    "quoteCount": 80,
+                    "indexedAt": "2025-01-24T19:58:46.657Z",
+                    "embeds": [
+                        {
+                            "$type": "app.bsky.embed.external#view",
+                            "external": {
+                                "uri": "https://www.politico.com/news/2025/01/24/state-department-foreign-aid-pause-00200510",
+                                "title": "State Department issues immediate, widespread pause on foreign aid",
+                                "description": "The \u201cstop-work orders\u201d appear to apply to US aid for all countries except Israel and Egypt.",
+                                "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:l7dn34bre6lgyu3q4vkomw32/bafkreieu6ssevaomcdvg4i5ethtozdtgpj3owb2o3mcolipuwbqpszgpna@jpeg"
+                            }
+                        }
+                    ]
+                }
+            },
+            "replyCount": 38,
+            "repostCount": 384,
+            "likeCount": 841,
+            "quoteCount": 17,
+            "indexedAt": "2025-01-24T20:00:30.363Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:zdgfaer5ovvztvmcfczmyyxo/app.bsky.feed.post/3lggmr6544k2d",
+            "cid": "bafyreiahlgwzkrgwb7zmulcqgd24ahdgffqovb7ddaw2asbozuahtnqipe",
+            "author": {
+                "did": "did:plc:zdgfaer5ovvztvmcfczmyyxo",
+                "handle": "djmelodie.bsky.social",
+                "displayName": "Dj Melodie",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zdgfaer5ovvztvmcfczmyyxo/bafkreigdn67hhwdqm7ziguswg3yf26gnmfvesvwsdta3jtjrh6nfxxedam@jpeg",
+                "labels": [],
+                "createdAt": "2023-08-05T01:10:05.715Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-23T19:33:12.146Z",
+                "embed": {
+                    "$type": "app.bsky.embed.video",
+                    "aspectRatio": {
+                        "height": 1920,
+                        "width": 1080
+                    },
+                    "video": {
+                        "$type": "blob",
+                        "ref": {
+                            "$link": "bafkreiac5zb52z7466yixydcavssqkmtrszb5unzws367exuaflukpckeu"
+                        },
+                        "mimeType": "video/mp4",
+                        "size": 18537789
+                    }
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "Bishop Mariann Edgar Budde responds to Trump and death threats."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.video#view",
+                "cid": "bafkreiac5zb52z7466yixydcavssqkmtrszb5unzws367exuaflukpckeu",
+                "playlist": "https://video.bsky.app/watch/did%3Aplc%3Azdgfaer5ovvztvmcfczmyyxo/bafkreiac5zb52z7466yixydcavssqkmtrszb5unzws367exuaflukpckeu/playlist.m3u8",
+                "thumbnail": "https://video.bsky.app/watch/did%3Aplc%3Azdgfaer5ovvztvmcfczmyyxo/bafkreiac5zb52z7466yixydcavssqkmtrszb5unzws367exuaflukpckeu/thumbnail.jpg",
+                "aspectRatio": {
+                    "height": 1920,
+                    "width": 1080
+                }
+            },
+            "replyCount": 84,
+            "repostCount": 448,
+            "likeCount": 2192,
+            "quoteCount": 49,
+            "indexedAt": "2025-01-23T19:33:18.660Z",
+            "labels": []
+        },
+        {
+            "uri": "at://did:plc:7qqkq2zdwq4j5jingukgtuky/app.bsky.feed.post/3lgenjhoprk2g",
+            "cid": "bafyreibzs5jyznhvluobsdjgfystvpyf5yepkszchzqiztytn5fih34ply",
+            "author": {
+                "did": "did:plc:7qqkq2zdwq4j5jingukgtuky",
+                "handle": "joncooper-us.bsky.social",
+                "displayName": "Jon Cooper",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7qqkq2zdwq4j5jingukgtuky/bafkreifxcm6iu4wfjapuut3fyrjygvejmk5ldyfb42uie4my6oxitu7v6m@jpeg",
+                "labels": [],
+                "createdAt": "2024-11-09T17:04:06.584Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2025-01-23T00:41:27.977Z",
+                "embed": {
+                    "$type": "app.bsky.embed.images",
+                    "images": [
+                        {
+                            "alt": "",
+                            "aspectRatio": {
+                                "height": 1255,
+                                "width": 1284
+                            },
+                            "image": {
+                                "$type": "blob",
+                                "ref": {
+                                    "$link": "bafkreig52ztkstcf7wwwxzalrld7zzfhkn7dbjiprqzlkw3d33tx6r3xzu"
+                                },
+                                "mimeType": "image/jpeg",
+                                "size": 438785
+                            }
+                        }
+                    ]
+                },
+                "langs": [
+                    "en"
+                ],
+                "text": "Trump is already killing manufacturing jobs in America."
+            },
+            "embed": {
+                "$type": "app.bsky.embed.images#view",
+                "images": [
+                    {
+                        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:7qqkq2zdwq4j5jingukgtuky/bafkreig52ztkstcf7wwwxzalrld7zzfhkn7dbjiprqzlkw3d33tx6r3xzu@jpeg",
+                        "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:7qqkq2zdwq4j5jingukgtuky/bafkreig52ztkstcf7wwwxzalrld7zzfhkn7dbjiprqzlkw3d33tx6r3xzu@jpeg",
+                        "alt": "",
+                        "aspectRatio": {
+                            "height": 1255,
+                            "width": 1284
+                        }
+                    }
+                ]
+            },
+            "replyCount": 186,
+            "repostCount": 1453,
+            "likeCount": 3910,
+            "quoteCount": 77,
+            "indexedAt": "2025-01-23T00:41:30.659Z",
+            "labels": []
+        }
+    ],
+    "cursor": "50"
+}

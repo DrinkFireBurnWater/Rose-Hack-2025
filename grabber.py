@@ -2,6 +2,7 @@ import requests
 import json
 from dotenv import load_dotenv
 import os
+from atproto import Client
 
 def scrape_news(query, sites):
     '''returns 100 articles searching for query from certain sites
@@ -29,5 +30,22 @@ def scrape_news(query, sites):
     with open('news_data.json', 'w') as file:
         json.dump(response.json(), file, indent=4)
 
+    return response.json()
+
+def scrape_bluesky(search_term):
+    url = 'https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts'
+    params = {
+        'q': search_term,
+        'sort': 'top',
+        'since': '2025-01-01T00:00:00.000Z',
+        'until': '2025-01-25T00:00:00.000Z',
+        'lang': 'en',
+        'limit': '50'
+    }
+
+    response = requests.get(url = url, params = params)
+
+    with open('bluesky_data.json', 'w') as file:
+        json.dump(response.json(), file, indent = 4)
 
     return response.json()

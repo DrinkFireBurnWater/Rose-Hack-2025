@@ -31,7 +31,6 @@ def analyze_sentiment():
     sentiment_totals = {util.renameSource(key) : model_result[key]['average'] for key in model_result.keys()}
     print("final",sentiment_totals)
 
-    #Remove Empty Function: If it's not present, then remove it from sites
     sites = [i for i in sites if i in sentiment_totals]
     scores = []
     for i in sentiment_totals:
@@ -39,10 +38,14 @@ def analyze_sentiment():
 
     print(sites)
 
+    blue_sky_result = grabber.scrape_bluesky(query)
+    blue_sky_sent = model.get_bluesky_sentiments(blue_sky_result) * 5
+
     return jsonify({
         'query': query,
         'sites': sites,
-       'scores': scores
+       'scores': scores,
+        'blue_sky_score' : blue_sky_sent
      })
 
 if __name__ == '__main__':

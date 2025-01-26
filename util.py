@@ -10,6 +10,6 @@ correctNames = {
 }
 
 #Rename converts the news name to the name used in index.html
-def renameSource(str):
-    return correctNames[str]
+def renameSource(name):
+    return correctNames[name]
 

@@ -1,11 +1,12 @@
 import requests
 import json
+from dotenv import load_dotenv
+import os
 
 def scrape_news(query, sites):
     '''returns 100 articles searching for query from certain sites
-    currently only changes newsdata.json and returns the path'''
-    #harded coded api key :hmm:
-    api_key = 'c69425308e63c259754667ba581bf645'
+    currently only changes news_data.json and returns the path'''
+    api_key = os.getenv('MEDIA_STACK_KEY')
     url = 'http://api.mediastack.com/v1/news'
     sources = ','.join(sites)
     print(sources)
@@ -24,9 +25,9 @@ def scrape_news(query, sites):
     }
 
     response = requests.get(url=url,params=params)
-    print(response.json())
 
-    with open('newsdata.json', 'w') as file:
+    with open('news_data.json', 'w') as file:
         json.dump(response.json(), file, indent=4)
 
-    return 'newsdata.json'
+
+    return response.json()

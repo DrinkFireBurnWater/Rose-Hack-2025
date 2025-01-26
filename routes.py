@@ -1,9 +1,7 @@
 from flask import Flask, render_template, request, jsonify
-import json
 import grabber
 import model
 import util
-
 app = Flask(__name__)
 
 @app.route('/')
@@ -13,9 +11,6 @@ def index():
 @app.route('/test', methods = ['POST'])
 def test():
     return render_template('index.html')
-
-from flask import Flask, request, jsonify, render_template
-import random  # For demo purposes
 
 @app.route('/analyze', methods=['POST'])
 def analyze_sentiment():

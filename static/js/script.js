@@ -26,15 +26,15 @@ let sentimentChart;
     });
 
     function updateChart(sentimentData) {
-    const ctx = document.getElementById('sentimentChart').getContext('2d');
-     if (sentimentChart) {
-        // Update the existing chart instance
-        sentimentChart.data.labels = sentimentData.sites; // Update x-axis labels
-        sentimentChart.data.datasets[0].data = sentimentData.sites.map((site, index) => ({
-            x: site,
-            y: sentimentData.scores[index]
-        }));
-        sentimentChart.update(); // Trigger chart update
+        const ctx = document.getElementById('sentimentChart').getContext('2d');
+         if (sentimentChart) {
+            // Update the existing chart instance
+            sentimentChart.data.labels = sentimentData.sites; // Update x-axis labels
+            sentimentChart.data.datasets[0].data = sentimentData.sites.map((site, index) => ({
+                x: site,
+                y: sentimentData.scores[index]
+            }));
+            sentimentChart.update(); // Trigger chart update
     } else {
         // Create a new chart instance if it doesn't exist
         sentimentChart = new Chart(ctx, {

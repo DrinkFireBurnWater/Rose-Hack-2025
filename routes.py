@@ -30,14 +30,15 @@ def analyze_sentiment():
     
     sentiment_totals = {util.renameSource(key) : model_result[key]['average'] for key in model_result.keys()}
     print("final",sentiment_totals)
-
+    print(sites)
     #Remove Empty Function: If it's not present, then remove it from sites
     sites = [i for i in sites if i in sentiment_totals]
     scores = []
     for i in sentiment_totals:
-        scores.append((sentiment_totals[i])*5)
+        scores.append((sentiment_totals[i])*15)
 
-    print(sites)
+    print("sites", sites)
+    print("scores", scores)
 
     return jsonify({
         'query': query,

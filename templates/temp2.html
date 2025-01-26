@@ -44,7 +44,7 @@
             <input type="text" id="searchInput"
                    class="w-full p-4 border-4 border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-xl focus:outline-none focus:border-blue-500 pr-12"
                    placeholder="Enter search term...">
-            <button id="searchButton" class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-blue-500 text-white p-3 rounded-full hover:bg-blue-600 transition">
+            <button class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-blue-500 text-white p-3 rounded-full hover:bg-blue-600 transition">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
@@ -54,38 +54,87 @@
         <!-- News Sources -->
         <div class="flex justify-center items-center space-x-6 mb-6">
             <div class="flex flex-col items-center">
-                <img src=static\images\CNN.webp alt="CNN" class="w-24 h-24 rounded-full mb-2"/>
-                <input type="checkbox" data-site="cnn" class="news-checkbox w-6 h-6 rounded-full" checked/>
+                <img src="/api/placeholder/100/100" alt="CNN" class="w-24 h-24 rounded-full mb-2"/>
+                <input type="checkbox" checked class="w-6 h-6 rounded-full"/>
             </div>
             <div class="flex flex-col items-center">
-                <img src=static\images\bbc.jpg alt="BBC" class="w-24 h-24 rounded-full mb-2"/>
-                <input type="checkbox" data-site="bbc" class="news-checkbox w-6 h-6 rounded-full" checked/>
+                <img src="/api/placeholder/100/100" alt="BBC" class="w-24 h-24 rounded-full mb-2"/>
+                <input type="checkbox" checked class="w-6 h-6 rounded-full"/>
             </div>
             <div class="flex flex-col items-center">
-                <img src=static\images\guardian.jpg alt="GUARDIAN" class="w-24 h-24 rounded-full mb-2"/>
-                <input type="checkbox" data-site="guardian" class="news-checkbox w-6 h-6 rounded-full" checked/>
+                <img src="/api/placeholder/100/100" alt="Reuters" class="w-24 h-24 rounded-full mb-2"/>
+                <input type="checkbox" checked class="w-6 h-6 rounded-full"/>
             </div>
             <div class="flex flex-col items-center">
-                <img src=static/images/fox.png alt="FOX" class="w-24 h-24 rounded-full mb-2"/>
-                <input type="checkbox" data-site="foxnews" class="news-checkbox w-6 h-6 rounded-full" checked/>
+                <img src="/api/placeholder/100/100" alt="FOX" class="w-24 h-24 rounded-full mb-2"/>
+                <input type="checkbox" checked class="w-6 h-6 rounded-full"/>
             </div>
             <div class="flex flex-col items-center">
-                <img src=static\images\NYT.png alt="NYT" class="w-24 h-24 rounded-full mb-2"/>
-                <input type="checkbox" data-site="nytimes" class="news-checkbox w-6 h-6 rounded-full" checked/>
+                <img src="/api/placeholder/100/100" alt="NYT" class="w-24 h-24 rounded-full mb-2"/>
+                <input type="checkbox" checked class="w-6 h-6 rounded-full"/>
             </div>
             <div class="flex flex-col items-center">
-                <img src=static\images\time.png alt="TIME" class="w-24 h-24 rounded-full mb-2"/>
-                <input type="checkbox" data-site="time" class="news-checkbox w-6 h-6 rounded-full" checked/>
+                <img src="/api/placeholder/100/100" alt="MSNBC" class="w-24 h-24 rounded-full mb-2"/>
+                <input type="checkbox" checked class="w-6 h-6 rounded-full"/>
             </div>
             <div class="flex flex-col items-center">
-                <img src=static\images\nbc.webp alt="NBC" class="w-24 h-24 rounded-full mb-2"/>
-                <input type="checkbox" data-site="nbc" class="news-checkbox w-6 h-6 rounded-full" checked/>
+                <img src="/api/placeholder/100/100" alt="AP" class="w-24 h-24 rounded-full mb-2"/>
+                <input type="checkbox" checked class="w-6 h-6 rounded-full"/>
             </div>
         </div>
 
         <!-- Sentiment Chart -->
         <canvas id="sentimentChart" class="w-full max-w-4xl h-96 bg-white dark:bg-gray-800 shadow-lg rounded-lg p-4"></canvas>
     </div>
-    <script src="/static/js/script.js"></script>
+
+    <script>
+        // Dark Mode Toggle with Persistent State
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        
+        // Check for saved 'darkMode' in localStorage
+        const savedDarkMode = localStorage.getItem('darkMode');
+
+        // If dark mode was previously enabled, add the dark class
+        if (savedDarkMode === 'enabled') {
+            document.documentElement.classList.add('dark');
+        }
+
+        darkModeToggle.addEventListener('click', () => {
+            // Toggle dark mode
+            document.documentElement.classList.toggle('dark');
+            
+            // Persist dark mode preference
+            if (document.documentElement.classList.contains('dark')) {
+                localStorage.setItem('darkMode', 'enabled');
+            } else {
+                localStorage.removeItem('darkMode');
+            }
+        });
+
+        // Simplified Chart Configuration
+        const ctx = document.getElementById('sentimentChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['CNN', 'BBC', 'Reuters', 'FOX', 'NYT', 'MSNBC', 'AP'],
+                datasets: [{
+                    label: 'Sentiment Score',
+                    data: [0.7, 0.5, 0.6, 0.4, 0.8, 0.3, 0.6],
+                    borderColor: 'rgb(75, 192, 192)',
+                    borderWidth: 3,
+                    tension: 0.1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 1
+                    }
+                }
+            }
+        });
+    </script>
 </body>
 </html>

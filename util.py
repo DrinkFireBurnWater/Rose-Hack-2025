@@ -2,14 +2,13 @@ correctNames = {
     
     'CNN': 'cnn', 
     'BBC': 'bbc', 
-    'reuters': 'reuters', 
+    'guardian': 'guardian', 
     'FOX': 'foxnews', 
     'nytimes': 'nytimes', 
-    'mnbc': 'mnbc', 
-    'ap': 'ap'
+    'TIME.com': 'time', 
+    'NBC': 'nbc'
 }
 
 #Rename converts the news name to the name used in index.html
 def renameSource(name):
     return correctNames[name]
-

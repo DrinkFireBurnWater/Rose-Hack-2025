@@ -28,8 +28,8 @@ let sentimentChart;
     function updateChart(sentimentData) {
         const ctx = document.getElementById('sentimentChart').getContext('2d');
          if (sentimentChart) {
-            // Update the existing chart instance
-            sentimentChart.data.labels = sentimentData.sites; // Update x-axis labels
+            // update existing chart instance
+            sentimentChart.data.labels = sentimentData.sites; // x-axis labels
             sentimentChart.data.datasets[0].data = sentimentData.sites.map((site, index) => ({
                 x: site,
                 y: sentimentData.scores[index]
@@ -73,4 +73,47 @@ let sentimentChart;
             }
         });
     }
+
+         const leftSideChart = new Chart(document.getElementById('leftSideChart'), {
+            type: 'bar',
+            options: { indexAxis: 'y',
+        aspectRatio: 0.8},
+            data: {
+                labels: ['Temp', "Temp", "Temp"],
+                datasets: [{
+                    label: 'temp',
+                    data: [10, 15, 7],
+                    backgroundColor: ['blue', 'green', 'red']
+                }]
+            }
+        });
+
+        const middleChart = new Chart(document.getElementById('middleChart'), {
+            type: 'bar',
+            options: { indexAxis: 'x'},
+            data: {
+                labels: ['Temp', "BlueSky", "Temp"],
+                datasets: [{
+                    label: 'temp',
+                    data: [10, 15, 7],
+                    backgroundColor: ['blue', 'green', 'red']
+                }]
+            }
+        });
+
+        const rightSideChart = new Chart(document.getElementById('rightSideChart'), {
+            type: 'bar',
+            options: { indexAxis: 'y',
+        aspectRatio: 0.8},
+            data: {
+                labels: ['Temp', "Temp", "Temp"],
+                datasets: [{
+                    label: 'temp',
+                    data: [10, 15, 7],
+                    backgroundColor: ['blue', 'green', 'red']
+                }]
+            }
+        });
+
 }
+

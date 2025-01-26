@@ -23,10 +23,10 @@ def analyze_sentiment():
 
     query = data.get('query', '')
     sites = data.get('sites', [])
-    print("Query:", query, type(query))
-    print("Sites:", sites, type(sites))
+    print("Query:", query)
+    print("Sites:", sites)
 
-    grabber_result = grabber.scrapeNews(query,sites)
+    grabber_result = grabber.scrape_news(query, sites)
     print(f'grabber_result:{grabber_result}')
 
     model_result = model.get_sentiments(grabber_result)

@@ -1,7 +1,7 @@
 import requests
 import json
 
-def scrapeNews(query,sites):
+def scrape_news(query, sites):
     '''returns 100 articles searching for query from certain sites
     currently only changes newsdata.json and returns the path'''
     #harded coded api key :hmm:

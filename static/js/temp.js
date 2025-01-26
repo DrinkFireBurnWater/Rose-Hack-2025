@@ -15,7 +15,7 @@ dataButton.addEventListener('click', showDataGraph);
 articleButtons.forEach((button, index) => {
   button.addEventListener('click', () => {
     // Update the graph bar position and appearance
-    graphBar.style.left = ${index * 12.5}%;
+    graphBar.style.left = `${index * 12.5}%`;
     graphBar.style.width = '12.5%';
     graphBar.style.backgroundColor = getComputedStyle(button).backgroundColor;
 
@@ -47,7 +47,7 @@ function handleGraphBarDrag(event) {
   const mousemove = (moveEvent) => {
     const delta = moveEvent.clientX - startX;
     const newLeft = Math.max(0, Math.min(startLeft + delta, 87.5));
-    graphBar.style.left = ${newLeft}%;
+    graphBar.style.left = `${newLeft}%`;
 // Update the selected article based on the graph bar position
     const selectedIndex = Math.floor(newLeft / 12.5);
     articleButtons[selectedIndex].click();

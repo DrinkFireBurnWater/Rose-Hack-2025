@@ -2,18 +2,21 @@ import requests
 import json
 #import query from 
 
-#Temp Query
-query = "environment"
-
-url = 'https://newsapi.org/v2/everything?'
+api_key = '11c95fbfdd920bf9ef287b95a3bb92fe'
+#query = "climate change"
+url = 'http://api.mediastack.com/v1/news'
+sources = 'cnn,bbc,latimes,foxnews,nytimes'
+#cnn,bbc,latimes,foxnews,nytimes
 
 params = {
-    'q': query,
-    'from': '2024-12-25',
-    'to': '2025-01-25',
-    'sortBy': 'popularity',
-    'pageSize': 100,
-    'apiKey': '7934d4a579f84cac8bf18ff57452553b'
+    'access_key': api_key,
+    #'keywords': query,
+    'sort': 'published_desc',
+    'limit': 100,
+    'sources' : sources,
+    'categories' : 'general', 
+    'languages': 'en',
+    'date':'2024-01-01,2025-01-25',
 }
 
 response = requests.get(url=url,params=params)
